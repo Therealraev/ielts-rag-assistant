@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 import google.generativeai as genai
 
 # ----------------------------
-# PAGE CONFIG
+# PAGE CONFIG (must be first)
 # ----------------------------
 st.set_page_config(
     page_title="IELTS Writing RAG Assistant",
@@ -34,7 +34,7 @@ index, texts, metadata = load_index_and_texts()
 sbert_model = load_encoder()
 
 # ----------------------------
-# GEMINI CONFIG
+# Gemini configuration
 # ----------------------------
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 gemini_model = genai.GenerativeModel("gemini-2.0-flash")
@@ -44,181 +44,143 @@ gemini_model = genai.GenerativeModel("gemini-2.0-flash")
 # Helper Functions
 # ----------------------------
 def cosine_sim(a, b):
-    return float(np.dot(a, b)) / (float(np.linalg.norm(a) * np.linalg.norm(b)) + 1e-8)
-
+    num = float(np.dot(a, b))
+    denom = float(np.linalg.norm(a) * np.linalg.norm(b) + 1e-8)
+    return num / denom
 
 def retrieve_context(query, k_final: int = 7):
     if not query.strip():
         return []
 
     query_vec = sbert_model.encode([query], convert_to_numpy=True).astype("float32")
-    distances, indices = index.search(query_vec, max(k_final * 2, 15))
+    base_k = max(k_final * 2, 15)
+    distances, indices = index.search(query_vec, base_k)
 
-    candidates = []
-    for dist, idx in zip(distances[0], indices[0]):
-        if 0 <= idx < len(texts) and texts[idx].strip():
-            candidates.append((dist, idx, texts[idx]))
-
-    if not candidates:
-        return []
+    candidates = [
+        (dist, idx, texts[idx])
+        for dist, idx in zip(distances[0], indices[0])
+        if 0 <= idx < len(texts) and texts[idx].strip()
+    ]
 
     candidates.sort(key=lambda x: x[0])
+    selected_texts, selected_embs = [], []
 
-    selected, embeddings = [], []
-    for dist, idx, text in candidates:
-        emb = sbert_model.encode([text], convert_to_numpy=True).astype("float32")[0]
+    for _, idx, t in candidates:
+        emb = sbert_model.encode([t], convert_to_numpy=True).astype("float32")[0]
 
-        if any(cosine_sim(emb, prev) > 0.9 for prev in embeddings):
+        if any(cosine_sim(emb, prev) > 0.90 for prev in selected_embs):
             continue
 
-        selected.append(text)
-        embeddings.append(emb)
+        selected_texts.append(t)
+        selected_embs.append(emb)
 
-        if len(selected) >= k_final:
+        if len(selected_texts) >= k_final:
             break
 
-    return selected
-
+    return selected_texts
 
 def build_prompt(query, retrieved):
     if not retrieved:
         return f"""
 I can only provide a partial answer based on the available context.
-QUESTION: {query}
 """
 
-    context = "\n".join([f"- {item}" for item in retrieved])
+    retrieved_text = "\n".join([f"- {item}" for item in retrieved])
 
     return f"""
-You are an IELTS Writing Tutor. Use ONLY the context.
+You are an IELTS Writing Tutor. Your answer MUST use ONLY the information provided in the CONTEXT.
 
 ========================================
 ### CONTEXT
-{context}
+{retrieved_text}
 ========================================
 
 ### QUESTION
 {query}
 
 ========================================
-STRICT FORMAT:
-1. Introduction — brief explanation of problem (NO title "Introduction")
-2. 4–6 bullet points (each 1–2 full sentences, ONE idea each, spacing exactly as format)
-3. Summary (NO repeated idea or synonym reuse)
-"""
+FORMAT:
+- Short introduction (no title "Introduction")
+- 4–6 bullets (strict rules)
+- Short conclusion sentence (no title "Conclusion")
 
+No outside knowledge. No repeated sentences.
+"""
 
 def rag_answer(query):
     retrieved = retrieve_context(query)
     prompt = build_prompt(query, retrieved)
     response = gemini_model.generate_content(prompt)
-    return response.text
+    return response.text, retrieved
 
 
 # ----------------------------
-# CSS
+# CSS Style
 # ----------------------------
 st.markdown("""
 <style>
-html, body {
+html, body, [class*="css"] {
     font-family: 'Inter', sans-serif;
 }
 
 .header-gradient {
     background: white;
-    padding: 30px;
+    padding: 30px 10px;
     border-radius: 12px;
     color: black !important;
     text-align: center;
     box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+    margin-bottom: 25px;
 }
-
-.user-bubble {
-    background: #e8f1ff;
-    padding: 12px 18px;
-    color: #003366;
-    border-radius: 14px;
-    margin: 10px 0;
-}
-
-.bot-bubble {
-    background: white;
-    padding: 15px 18px;
-    color: black;
-    border-radius: 14px;
-    margin: 10px 0;
+.header-gradient * {
+    color: black !important;
 }
 </style>
 """, unsafe_allow_html=True)
 
 
 # ----------------------------
-# SIDEBAR PRESET QUESTIONS
+# Sidebar Preset Questions
 # ----------------------------
 with st.sidebar:
     st.header("📘 IELTS Writing Helper")
+    st.write("Click a question to auto-fill the chat box.")
 
     categories = {
-        "Coherence": [
+        "🧩 Coherence": [
             "How can I improve coherence?",
-            "How do I ensure sentences connect smoothly?",
-            "How do I avoid abrupt topic shifts?"
-        ],
-        "Cohesion": [
-            "What linking words improve cohesion?",
-            "How do I use cohesive devices properly?"
+            "How do I ensure each sentence follows logically from the previous one?",
+            "How do I avoid abrupt changes in ideas?"
         ]
     }
 
-    for cat, questions in categories.items():
-        st.subheader(cat)
-        for q in questions:
-            if st.button(q, key=q):
-                st.session_state["selected_question"] = q
-                st.experimental_rerun()
-
+    for label, items in categories.items():
+        st.subheader(label)
+        for q in items:
+            if st.button(q):
+                st.session_state["chat_input"] = q
+                st.rerun()
 
 # ----------------------------
-# Chat Title
+# Chat UI
 # ----------------------------
 st.markdown("""
 <div class='header-gradient'>
     <h1>IELTS Writing RAG Assistant</h1>
-    <p>Ask about writing structure, coherence, grammar, or clarity.</p>
+    <p>Chat with an AI tutor trained on your IELTS writing knowledge base</p>
 </div>
 """, unsafe_allow_html=True)
 
-
-# ----------------------------
-# CHAT HISTORY
-# ----------------------------
 if "messages" not in st.session_state:
-    st.session_state["messages"] = []
+    st.session_state.messages = []
 
+for msg in st.session_state.messages:
+    st.write(f"**{msg['role'].capitalize()}:** {msg['content']}")
 
-for msg in st.session_state["messages"]:
-    role_class = "user-bubble" if msg["role"] == "user" else "bot-bubble"
-    st.markdown(f"<div class='{role_class}'>{msg['content']}</div>", unsafe_allow_html=True)
-
-
-# ----------------------------
-# USER INPUT
-# ----------------------------
-default_value = st.session_state.get("selected_question", "")
-
-user_query = st.text_input("", placeholder="Type your question here...", value=default_value)
-
-send = st.button("Send")
-
-
-if send and user_query.strip():
-    st.session_state["messages"].append({"role": "user", "content": user_query})
-
-    with st.spinner("Thinking..."):
-        answer = rag_answer(user_query)
-
-    st.session_state["messages"].append({"role": "assistant", "content": answer})
-
-    st.session_state["selected_question"] = ""
-
-    st.experimental_rerun()
+user_query = st.text_input("Ask something", key="chat_input")
+if st.button("Send") and user_query.strip():
+    st.session_state.messages.append({"role": "user", "content": user_query})
+    answer, _ = rag_answer(user_query)
+    st.session_state.messages.append({"role": "assistant", "content": answer})
+    st.session_state.chat_input = ""
+    st.rerun()
