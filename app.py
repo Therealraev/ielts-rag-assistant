@@ -140,26 +140,82 @@ html, body, [class*="css"] {
 
 
 # ----------------------------
-# Sidebar Preset Questions
+# Sidebar with Examples
 # ----------------------------
 with st.sidebar:
     st.header("📘 IELTS Writing Helper")
-    st.write("Click a question to auto-fill the chat box.")
+    st.write("Improve your writing using:")
+    st.write("• Coherence & cohesion")
+    st.write("• Logical progression")
+    st.write("• Paragraph structure")
+    st.write("• Transitions")
+    st.write("• Grammar rules")
+    
+    st.write("Select a question — it will automatically appear in the chat box.")
 
     categories = {
         "🧩 Coherence": [
             "How can I improve coherence?",
             "How do I ensure each sentence follows logically from the previous one?",
-            "How do I avoid abrupt changes in ideas?"
+            "How do I avoid abrupt changes in ideas?",
+            "How can I improve the logical flow of my writing?",
+            "How do I maintain a consistent line of reasoning?"
+        ],
+        "🔗 Cohesion": [
+            "How can I use cohesive devices effectively?",
+            "What linking words improve cohesion?",
+            "How do reference words improve cohesion?",
+            "How do I show relationships between ideas clearly?",
+            "How do I avoid repeating the same cohesive devices?"
+        ],
+        "📑 Paragraph Structure": [
+            "How do I structure a paragraph?",
+            "How can I organize a paragraph clearly?",
+            "How can I sequence ideas inside a paragraph?",
+            "How do I keep a paragraph focused on one idea?",
+            "How do I avoid mixing unrelated ideas in a paragraph?"
+        ],
+        "🎯 Topic Sentences": [
+            "What is a topic sentence?",
+            "How do I write an effective topic sentence?",
+            "How do topic sentences improve coherence?"
+        ],
+        "📝 Task Response (Task 2)": [
+            "How do I choose good main ideas for Task 2?",
+            "How can I avoid complex ideas in Task 2?",
+            "How do I make sure my Task 2 ideas are easy to develop?",
+            "How can I avoid technical arguments in Task 2?"
+        ],
+        "📚 Vocabulary": [
+            "How can I improve vocabulary?",
+            "How can I improve vocabulary for Task 2?",
+            "Which formal verbs are useful for IELTS writing?",
+            "How can I avoid repeating words?",
+            "How do I use topic-specific vocabulary effectively?"
+        ],
+        "⚙️ Grammar Range": [
+            "How can I improve my grammatical range?",
+            "How do I avoid sentence fragments?",
+            "How do I fix run-on sentences?",
+            "How can I vary my sentence structure?",
+            "What are common subject–verb agreement mistakes?"
+        ],
+        "✨ Writing Quality": [
+            "How do I avoid list-like writing?",
+            "How can I add explanation sentences?",
+            "How do I keep my writing clear and coherent?",
+            "How do I keep my writing formal?",
+            "How can I organize my ideas more effectively?"
         ]
     }
 
-    for label, items in categories.items():
-        st.subheader(label)
-        for q in items:
-            if st.button(q):
+    for category, questions in categories.items():
+        st.subheader(category)
+        for q in questions:
+            if st.button(q, key=q):
                 st.session_state["chat_input"] = q
                 st.rerun()
+
 
 # ----------------------------
 # Chat UI
