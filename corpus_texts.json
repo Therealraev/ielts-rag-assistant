@@ -1,0 +1,2624 @@
+[
+  {
+    "function": "Introduction – Presenting the Topic",
+    "phrases": [
+      "In recent years, there has been growing interest in the issue of...",
+      "One of the most significant challenges facing modern societies is...",
+      "The rapid development of technology has had a profound impact on...",
+      "Education plays a crucial role in shaping...",
+      "It is widely acknowledged that..."
+    ]
+  },
+  {
+    "function": "Introduction – Stating Purpose or Aim",
+    "phrases": [
+      "This essay will examine the main causes of...",
+      "The purpose of this essay is to discuss...",
+      "This paper aims to explore the reasons why...",
+      "In this essay, both advantages and disadvantages of ... will be considered.",
+      "This essay will evaluate the extent to which..."
+    ]
+  },
+  {
+    "function": "Presenting an Opinion",
+    "phrases": [
+      "It is argued that...",
+      "This essay contends that...",
+      "From my perspective, ...",
+      "It can be strongly argued that...",
+      "There are good reasons to believe that..."
+    ]
+  },
+  {
+    "function": "Adding Points",
+    "phrases": [
+      "Furthermore, it is important to note that...",
+      "In addition, many people believe that...",
+      "Moreover, recent studies have shown that...",
+      "Another key factor is that...",
+      "A further consideration is that..."
+    ]
+  },
+  {
+    "function": "Giving Examples",
+    "phrases": [
+      "For example, many students find that...",
+      "For instance, recent research has demonstrated that...",
+      "This can be illustrated by the fact that...",
+      "A clear example of this is...",
+      "Such as can be seen in the case of..."
+    ]
+  },
+  {
+    "function": "Contrasting Ideas",
+    "phrases": [
+      "However, it is also important to consider that...",
+      "On the other hand, some people argue that...",
+      "In contrast to this view, others believe that...",
+      "Nevertheless, it should be noted that...",
+      "Despite these arguments, it can be claimed that..."
+    ]
+  },
+  {
+    "function": "Showing Cause and Effect",
+    "phrases": [
+      "As a result of this, many people...",
+      "Consequently, there has been a significant increase in...",
+      "This has led to the situation where...",
+      "Therefore, it can be seen that...",
+      "As a consequence, it is becoming increasingly common that..."
+    ]
+  },
+  {
+    "function": "Expressing Caution / Hedging",
+    "phrases": [
+      "It may be the case that...",
+      "This suggests that...",
+      "It could be argued that...",
+      "There appears to be some evidence that...",
+      "It is possible that..."
+    ]
+  },
+  {
+    "function": "Evaluating or Interpreting Evidence",
+    "phrases": [
+      "These findings indicate that...",
+      "This evidence strongly suggests that...",
+      "This can be interpreted as...",
+      "Taken together, these results show that...",
+      "Overall, this implies that..."
+    ]
+  },
+  {
+    "function": "Conclusion – Summarizing",
+    "phrases": [
+      "In conclusion, it can be seen that...",
+      "To sum up, the main points that have been discussed are...",
+      "Overall, it seems that...",
+      "In summary, there are strong arguments both for and against...",
+      "To conclude, it is clear that..."
+    ]
+  },
+  {
+    "function": "Conclusion – Giving Recommendations or Final Opinion",
+    "phrases": [
+      "Therefore, it is recommended that...",
+      "For this reason, governments should...",
+      "As a result, individuals ought to...",
+      "In light of these considerations, it is suggested that...",
+      "Ultimately, it is essential that..."
+    ]
+  },
+  {
+    "question": "How can I make my writing more formal?",
+    "answer": [
+      "Avoid contractions such as 'don't' or 'can't' and use full forms instead.",
+      "Replace informal phrases with academic alternatives like 'children' instead of 'kids'.",
+      "Use precise vocabulary and avoid conversational expressions."
+    ],
+    "tags": [
+      "academic tone",
+      "formality"
+    ]
+  },
+  {
+    "question": "How do I avoid emotional language in IELTS essays?",
+    "answer": [
+      "Use neutral, objective wording instead of emotional adjectives.",
+      "Avoid exaggerated claims such as 'terrible', 'amazing', or 'disastrous' unless necessary.",
+      "Focus on logical arguments rather than emotional reactions."
+    ],
+    "tags": [
+      "tone",
+      "objectivity"
+    ]
+  },
+  {
+    "question": "How can I improve clarity in my writing?",
+    "answer": [
+      "Use simple and direct sentence structures.",
+      "Avoid overly long or complex sentences that confuse the reader.",
+      "Ensure each sentence expresses one clear idea."
+    ],
+    "tags": [
+      "clarity",
+      "style"
+    ]
+  },
+  {
+    "question": "What is hedging and why is it useful?",
+    "answer": [
+      "Hedging softens claims and makes arguments more balanced.",
+      "Use words like 'may', 'might', 'could', or 'it seems' to avoid absolute statements.",
+      "It helps maintain academic tone by avoiding overgeneralizations."
+    ],
+    "tags": [
+      "hedging",
+      "academic tone"
+    ]
+  },
+  {
+    "question": "How do I avoid sounding too personal in my essay?",
+    "answer": [
+      "Avoid using personal pronouns such as 'I', 'my', or 'you' in formal essays.",
+      "Use impersonal structures like 'it is believed that' or 'many argue that'.",
+      "Focus on general statements supported by evidence."
+    ],
+    "tags": [
+      "impersonal tone",
+      "formality"
+    ]
+  },
+  {
+    "question": "How do I avoid informal vocabulary?",
+    "answer": [
+      "Replace phrasal verbs with single academic verbs, such as 'increase' instead of 'go up'.",
+      "Avoid slang, idioms, and conversational expressions.",
+      "Use formal adjectives and nouns instead of casual ones."
+    ],
+    "tags": [
+      "vocabulary",
+      "academic tone"
+    ]
+  },
+  {
+    "question": "How can I write more precisely?",
+    "answer": [
+      "Choose vocabulary that reflects your exact meaning rather than broad general terms.",
+      "Avoid vague words such as 'things', 'stuff', or 'a lot'.",
+      "Use specific nouns and verbs rather than general or abstract ones."
+    ],
+    "tags": [
+      "precision",
+      "clarity"
+    ]
+  },
+  {
+    "question": "How do I avoid overgeneralizing in an essay?",
+    "answer": [
+      "Use hedging phrases such as 'in some cases' or 'often' to limit your claims.",
+      "Avoid using words like 'always' or 'everyone' unless absolutely true.",
+      "Support your statements with examples or logical reasoning."
+    ],
+    "tags": [
+      "academic tone",
+      "accuracy"
+    ]
+  },
+  {
+    "question": "How can I improve readability while keeping a formal tone?",
+    "answer": [
+      "Break long sentences into shorter, clearer ones.",
+      "Use paragraphs that focus on a single idea.",
+      "Maintain formal vocabulary but avoid unnecessary complexity."
+    ],
+    "tags": [
+      "readability",
+      "style"
+    ]
+  },
+  {
+    "question": "How do I sound authoritative without being too direct?",
+    "answer": [
+      "Use modal verbs like 'may', 'could', or 'might' to soften statements.",
+      "Avoid absolute claims and provide reasonable explanations.",
+      "Use academic phrases like 'research suggests' or 'it can be argued that'."
+    ],
+    "tags": [
+      "authority",
+      "hedging"
+    ]
+  },
+  {
+    "question": "How do I avoid informal sentence structures?",
+    "answer": [
+      "Do not begin sentences with 'and', 'but', or 'so' in academic writing.",
+      "Avoid conversational patterns such as rhetorical questions.",
+      "Use complex but clear sentence structures to express relationships between ideas."
+    ],
+    "tags": [
+      "structure",
+      "formality"
+    ]
+  },
+  {
+    "question": "How do I maintain a consistent tone?",
+    "answer": [
+      "Ensure vocabulary, grammar, and sentence structures all follow academic style.",
+      "Avoid switching between formal and informal expressions in the same essay.",
+      "Use neutral language throughout the entire response."
+    ],
+    "tags": [
+      "consistency",
+      "academic tone"
+    ]
+  },
+  {
+    "question": "Why should I avoid rhetorical questions?",
+    "answer": [
+      "Rhetorical questions sound conversational and informal.",
+      "They reduce the clarity of your argument by implying rather than explaining.",
+      "Academic writing requires direct statements rather than rhetorical ones."
+    ],
+    "tags": [
+      "tone",
+      "formality"
+    ]
+  },
+  {
+    "question": "How do I remove unnecessary words from my writing?",
+    "answer": [
+      "Eliminate filler phrases like 'in my opinion I think that'.",
+      "Avoid repeating the same idea using different words.",
+      "Use concise sentences that express meaning directly."
+    ],
+    "tags": [
+      "conciseness",
+      "style"
+    ]
+  },
+  {
+    "question": "How do I avoid sounding like I memorized templates?",
+    "answer": [
+      "Use flexible structures that can adapt to different topics.",
+      "Avoid overusing memorized phrases like 'Nowadays, ... is a controversial issue'.",
+      "Paraphrase templates naturally to fit the question."
+    ],
+    "tags": [
+      "naturalness",
+      "academic tone"
+    ]
+  },
+  {
+    "question": "How do I create a more academic writing style?",
+    "answer": [
+      "Use formal, precise vocabulary suitable for academic contexts.",
+      "Avoid phrasal verbs, slang, and conversational expressions.",
+      "Use passive voice strategically to create objectivity."
+    ],
+    "tags": [
+      "style",
+      "academic writing"
+    ]
+  },
+  {
+    "question": "How do I show balance in my writing?",
+    "answer": [
+      "Use hedging phrases to avoid sounding extreme.",
+      "Consider both sides of an argument when appropriate.",
+      "Use academic connectors such as 'however', 'nevertheless', and 'although'."
+    ],
+    "tags": [
+      "balance",
+      "tone"
+    ]
+  },
+  {
+    "question": "How can I make my arguments more objective?",
+    "answer": [
+      "Avoid personal preferences and emotional reactions.",
+      "Use research-based or logical explanations instead of subjective opinions.",
+      "Apply impersonal structures to distance yourself from the argument."
+    ],
+    "tags": [
+      "objectivity",
+      "academic tone"
+    ]
+  },
+  {
+    "question": "How do I avoid casual tone in my sentences?",
+    "answer": [
+      "Replace informal verbs with academic equivalents.",
+      "Avoid conversational fillers such as 'basically', 'you know', or 'kind of'.",
+      "Use structured, formal expressions to connect ideas."
+    ],
+    "tags": [
+      "formality",
+      "tone"
+    ]
+  },
+  {
+    "question": "What common tone mistakes lower IELTS Writing scores?",
+    "answer": [
+      "Using contractions and slang reduces formality.",
+      "Overly emotional or personal language lowers academic tone.",
+      "Using rhetorical questions or conversational phrases reduces clarity."
+    ],
+    "tags": [
+      "academic tone",
+      "mistakes"
+    ]
+  },
+  {
+    "question": "What does Band 5 writing typically look like?",
+    "answer": [
+      "Ideas are present but not fully developed, often lacking explanations or examples.",
+      "Frequent grammar errors make sentences unclear or difficult to understand.",
+      "Vocabulary is basic, repetitive, and sometimes inaccurate for the topic."
+    ],
+    "tags": [
+      "band 5",
+      "diagnostic",
+      "task2"
+    ]
+  },
+  {
+    "question": "Why does Band 5 writing lose coherence?",
+    "answer": [
+      "Paragraphs may not follow a logical order, leading to unclear progression.",
+      "Linking words are used inaccurately or too repetitively.",
+      "Topic sentences may be missing or unclear, causing confusion for the reader."
+    ],
+    "tags": [
+      "band 5",
+      "coherence"
+    ]
+  },
+  {
+    "question": "What grammatical issues are common in Band 5 writing?",
+    "answer": [
+      "Frequent tense errors and inconsistent verb forms occur throughout the essay.",
+      "Sentence fragments and run-on sentences are common.",
+      "Complex structures are attempted but often inaccurate, reducing clarity."
+    ],
+    "tags": [
+      "band 5",
+      "grammar"
+    ]
+  },
+  {
+    "question": "How can a Band 5 writer improve?",
+    "answer": [
+      "Focus on developing each idea with explanations and simple, accurate examples.",
+      "Improve grammar accuracy by practicing sentence structure and tenses.",
+      "Use clearer topic sentences and basic cohesive devices correctly."
+    ],
+    "tags": [
+      "band 5",
+      "improvement"
+    ]
+  },
+  {
+    "question": "What does Band 6 writing typically look like?",
+    "answer": [
+      "Ideas are generally clear but may lack full development.",
+      "Grammar errors exist but do not prevent overall understanding.",
+      "Vocabulary is adequate but occasional misused words appear."
+    ],
+    "tags": [
+      "band 6",
+      "diagnostic"
+    ]
+  },
+  {
+    "question": "Why does Band 6 writing lose task response marks?",
+    "answer": [
+      "Some points are presented without sufficient explanation or examples.",
+      "Parts of the task may be addressed unevenly.",
+      "The conclusion may be weak or repetitive rather than summarizing clearly."
+    ],
+    "tags": [
+      "band 6",
+      "task response"
+    ]
+  },
+  {
+    "question": "What coherence problems appear in Band 6 essays?",
+    "answer": [
+      "Ideas generally connect but transitions may be repetitive.",
+      "Paragraphs sometimes mix unrelated ideas.",
+      "Referencing words like 'this' or 'these' may be unclear."
+    ],
+    "tags": [
+      "band 6",
+      "coherence"
+    ]
+  },
+  {
+    "question": "How can a Band 6 writer improve?",
+    "answer": [
+      "Develop ideas fully with explanations and relevant examples.",
+      "Use a wider range of cohesive devices naturally.",
+      "Expand vocabulary to avoid repetition and vague expressions."
+    ],
+    "tags": [
+      "band 6",
+      "improvement"
+    ]
+  },
+  {
+    "question": "What does Band 7 writing typically look like?",
+    "answer": [
+      "Ideas are clear, well-organized, and logically developed.",
+      "Grammar errors are occasional but do not reduce clarity.",
+      "Vocabulary is varied and mostly accurate with natural collocations."
+    ],
+    "tags": [
+      "band 7",
+      "diagnostic"
+    ]
+  },
+  {
+    "question": "Why does Band 7 writing sometimes lose marks?",
+    "answer": [
+      "Some complex sentence structures may be inaccurate.",
+      "Ideas may need slightly deeper development to reach Band 8.",
+      "Transitions are generally good but may lack variety in places."
+    ],
+    "tags": [
+      "band 7",
+      "weakness"
+    ]
+  },
+  {
+    "question": "What characterizes coherence in Band 7 writing?",
+    "answer": [
+      "Paragraphs are well-organized with strong topic sentences.",
+      "Ideas flow logically with appropriate linking words and referencing.",
+      "There are few abrupt shifts, though improvements are still possible."
+    ],
+    "tags": [
+      "band 7",
+      "coherence"
+    ]
+  },
+  {
+    "question": "How can a Band 7 writer move to Band 8?",
+    "answer": [
+      "Increase precision and range in vocabulary using more academic expressions.",
+      "Strengthen idea development by adding clear, logical explanations.",
+      "Improve accuracy in complex sentence structures to minimize errors."
+    ],
+    "tags": [
+      "band 7",
+      "improvement"
+    ]
+  },
+  {
+    "question": "What does Band 8 writing typically look like?",
+    "answer": [
+      "Arguments are fully developed with detailed explanations and relevant examples.",
+      "Grammar is highly accurate with consistent control of complex structures.",
+      "Vocabulary is flexible, accurate, and used naturally throughout the essay."
+    ],
+    "tags": [
+      "band 8",
+      "diagnostic"
+    ]
+  },
+  {
+    "question": "Why does Band 8 writing lose marks sometimes?",
+    "answer": [
+      "Very rare inaccuracies in grammar or vocabulary may appear.",
+      "Some transitions may be used too frequently or mechanically.",
+      "A few sentences may be overly long, reducing clarity slightly."
+    ],
+    "tags": [
+      "band 8",
+      "weakness"
+    ]
+  },
+  {
+    "question": "What makes Band 8 writing coherent?",
+    "answer": [
+      "Paragraphs develop ideas with excellent logical progression.",
+      "Transitions and referencing are natural and varied.",
+      "Each paragraph contributes clearly to the thesis and argument."
+    ],
+    "tags": [
+      "band 8",
+      "coherence"
+    ]
+  },
+  {
+    "question": "How can a Band 8 writer reach Band 9?",
+    "answer": [
+      "Improve precision further by refining vocabulary choices.",
+      "Eliminate rare grammar slips by reviewing high-level structures.",
+      "Ensure every sentence contributes directly to clarity and flow."
+    ],
+    "tags": [
+      "band 8",
+      "improvement"
+    ]
+  },
+  {
+    "question": "What does Band 9 writing typically look like?",
+    "answer": [
+      "Ideas are fully extended, logically sequenced, and exceptionally clear.",
+      "Grammar is flawless with complete control of both simple and complex structures.",
+      "Vocabulary is sophisticated, accurate, and used effortlessly."
+    ],
+    "tags": [
+      "band 9",
+      "diagnostic"
+    ]
+  },
+  {
+    "question": "Why is Band 9 writing considered exceptional?",
+    "answer": [
+      "Every idea is fully developed with insightful explanations and examples.",
+      "Cohesion and coherence are flawless without mechanical linking.",
+      "There are no grammar or vocabulary errors at all."
+    ],
+    "tags": [
+      "band 9",
+      "excellence"
+    ]
+  },
+  {
+    "question": "What makes Band 9 writing coherent?",
+    "answer": [
+      "Ideas progress naturally with perfect logical flow.",
+      "Transitions are seamless and invisible rather than formulaic.",
+      "Each paragraph is focused, powerful, and clearly connected to the thesis."
+    ],
+    "tags": [
+      "band 9",
+      "coherence"
+    ]
+  },
+  {
+    "question": "How can an advanced writer maintain Band 9 quality?",
+    "answer": [
+      "Keep vocabulary precise rather than unnecessarily complex.",
+      "Maintain natural, clear argumentation without over-explaining.",
+      "Preserve balance, objectivity, and perfect accuracy throughout the essay."
+    ],
+    "tags": [
+      "band 9",
+      "strategy"
+    ]
+  },
+  {
+    "anchor_type": "Coherence Improvement",
+    "anchors": [
+      "To improve coherence, ensure each sentence logically follows from the previous one.",
+      "Coherence increases when paragraphs use clear topic sentences and logical sequencing.",
+      "To make writing more coherent, use transitions such as 'however', 'therefore', and 'moreover'.",
+      "Strong coherence depends on the smooth flow of ideas from one sentence to the next.",
+      "Coherence improves when ideas are presented in a logical, easy-to-follow order.",
+      "Use clear transitions to create coherence between ideas and paragraphs.",
+      "To improve coherence, avoid abrupt jumps between unrelated ideas.",
+      "Paragraph coherence is created by connecting ideas with appropriate linking words.",
+      "Good coherence means the reader can easily understand how ideas relate to each other.",
+      "To enhance coherence, clearly signal relationships between ideas using cohesive devices.",
+      "Coherence develops when each sentence builds on the previous one.",
+      "To achieve coherence, present information in a consistent and logical sequence.",
+      "Use referencing words like 'this issue' or 'these problems' to maintain coherence.",
+      "Coherence in writing comes from organizing ideas clearly and logically.",
+      "To improve coherence, ensure every sentence contributes to the main idea of the paragraph."
+    ]
+  },
+  {
+    "anchor_type": "Logical Flow",
+    "anchors": [
+      "Logical flow means ideas move smoothly and naturally from one sentence to the next.",
+      "To create logical flow, use transitions that show contrast, result, or addition.",
+      "Logical flow improves when the structure of sentences matches the progression of ideas.",
+      "For better logical flow, avoid placing unrelated ideas in the same paragraph.",
+      "Logical flow is achieved by using connectors that show relationships between ideas.",
+      "A paragraph flows logically when each idea expands or supports the previous idea.",
+      "To strengthen logical flow, add explanation sentences between major points.",
+      "Using sequential markers such as 'firstly', 'next', and 'finally' improves logical flow.",
+      "Logical flow depends on the clarity of relationships between ideas.",
+      "Ensure that ideas progress logically to improve overall flow and readability."
+    ]
+  },
+  {
+    "anchor_type": "Transitions and Cohesive Devices",
+    "anchors": [
+      "Transitions such as 'however', 'therefore', and 'consequently' improve coherence.",
+      "Cohesive devices connect sentences and create smooth flow in writing.",
+      "Use linking words correctly to maintain cohesion across sentences.",
+      "Cohesion improves when repeated ideas are linked using reference words.",
+      "Use transitional phrases to guide the reader through your argument.",
+      "Effective transitions make paragraphs more coherent and easier to follow.",
+      "Cohesive devices help show cause, contrast, and relationships between ideas.",
+      "A lack of transitions weakens coherence and logical flow.",
+      "Cohesion increases when writers use varied and accurate linking words.",
+      "Clear transitions are essential for guiding readers through a logical argument."
+    ]
+  },
+  {
+    "category": "Coherence – Overall Essay Structure",
+    "rules": [
+      "Make sure your essay has a clear introduction, body, and conclusion.",
+      "State your main position or thesis clearly in the introduction.",
+      "Organize body paragraphs so that each one supports a specific part of your thesis.",
+      "Present ideas in a logical order, avoiding sudden jumps between unrelated points.",
+      "Use the introduction to set up the issue, not to provide all arguments immediately.",
+      "Use the conclusion to summarize key points and restate your position, not to add new arguments.",
+      "Check that the essay answers all parts of the question prompt.",
+      "Use paragraph breaks to signal major shifts in focus or argument."
+    ]
+  },
+  {
+    "category": "Coherence – Paragraph Level",
+    "rules": [
+      "Begin each paragraph with a topic sentence that clearly states the main idea.",
+      "Ensure every sentence in a paragraph supports or develops the topic sentence.",
+      "Avoid including multiple unrelated ideas in the same paragraph.",
+      "Use explanation sentences to clarify why a point is important.",
+      "Follow the logical pattern: topic sentence → explanation → example → mini conclusion.",
+      "End the paragraph with a sentence that links back to the main argument or the next paragraph.",
+      "Keep paragraphs balanced in length; avoid extremely short or extremely long ones.",
+      "Use clear paragraphing to separate different stages of your argument."
+    ]
+  },
+  {
+    "category": "Coherence – Sentence Level Flow",
+    "rules": [
+      "Ensure each sentence follows naturally from the previous one.",
+      "Use linking phrases to show relationships between sentences (for example, however, therefore).",
+      "Avoid placing sentences in random order; group related ideas together.",
+      "Use cause-and-effect structures when explaining reasons and results.",
+      "Avoid repeating the same idea in slightly different words in consecutive sentences.",
+      "Use contrast structures when presenting opposing views (on the other hand, in contrast).",
+      "Use summarizing sentences when finishing an explanation or example.",
+      "Check that pronouns such as 'this', 'these', and 'it' refer clearly to something in the previous sentence."
+    ]
+  },
+  {
+    "category": "Cohesion – Linking Words and Phrases",
+    "rules": [
+      "Use addition linkers like 'moreover', 'furthermore', and 'in addition' to add related information.",
+      "Use contrast linkers like 'however', 'nevertheless', and 'on the other hand' to show differences.",
+      "Use cause-and-effect linkers like 'therefore', 'consequently', and 'as a result' to show results.",
+      "Use example linkers like 'for example', 'for instance', and 'such as' to introduce examples.",
+      "Use time/sequence linkers like 'firstly', 'next', 'then', and 'finally' to order ideas.",
+      "Use conclusion linkers like 'in summary', 'overall', and 'to conclude' to end your essay.",
+      "Avoid overusing one single linker such as 'also' or 'because'.",
+      "Choose linkers that match the relationship you want to express; do not use them randomly."
+    ]
+  },
+  {
+    "category": "Cohesion – Reference and Substitution",
+    "rules": [
+      "Use pronouns such as 'it', 'they', 'this', and 'these' to refer back to previously mentioned ideas.",
+      "Make sure every pronoun has a clear and unambiguous reference.",
+      "Use phrases like 'this problem', 'this trend', or 'such an issue' to refer to earlier points.",
+      "Avoid repeating long noun phrases when a pronoun or shorter phrase is enough.",
+      "Use substitution words like 'one', 'ones', or 'this approach' to avoid repetition.",
+      "Avoid using 'this' or 'it' on their own when the reference is not obvious.",
+      "Use consistent terms to refer to the same concept throughout the essay.",
+      "Check for any pronouns that could refer to more than one noun and clarify them."
+    ]
+  },
+  {
+    "category": "Cohesion – Repetition and Lexical Chains",
+    "rules": [
+      "Repeat key words or phrases strategically to remind the reader of the main topic.",
+      "Use synonyms and related words to create lexical chains around important concepts.",
+      "Avoid repeating the exact same word too frequently in close sentences.",
+      "Use different forms of the same word (e.g., 'educate', 'education', 'educational') to keep cohesion.",
+      "Maintain consistent terminology for central ideas to avoid confusion.",
+      "Avoid switching terms for the same concept in a way that might confuse the reader.",
+      "Use descriptive phrases instead of pronouns when clarity is more important than brevity.",
+      "Check that the lexical choices across the paragraph reinforce the same central idea."
+    ]
+  },
+  {
+    "category": "Planning and Revising for Coherence",
+    "rules": [
+      "Before writing, outline your main points and the order in which you will present them.",
+      "Decide how many paragraphs you will write and what each one will focus on.",
+      "After writing, read each paragraph and ask: 'What is the main idea here?'",
+      "Check whether each paragraph clearly supports your overall thesis.",
+      "Look for places where the reader might get lost and add transitions or clarifying sentences.",
+      "Combine very short paragraphs that discuss the same idea into one stronger paragraph.",
+      "Split extremely long paragraphs that contain several different ideas.",
+      "Read the essay aloud to check whether the flow of ideas feels natural and logical."
+    ]
+  },
+  {
+    "category": "Common Coherence Problems and Fixes",
+    "rules": [
+      "Problem: Paragraph contains two different main ideas. Fix: Split the paragraph and give each idea its own topic sentence.",
+      "Problem: Reader cannot see how ideas are connected. Fix: Add linking phrases that show contrast, cause, or sequence.",
+      "Problem: Conclusion feels sudden or disconnected. Fix: Summarize the key arguments before presenting your final statement.",
+      "Problem: Example appears without explanation. Fix: Add a sentence explaining how the example supports your point.",
+      "Problem: Topic sentence is too general. Fix: Rewrite it to include a clear, specific claim.",
+      "Problem: New idea appears in the conclusion. Fix: Move that idea into a body paragraph and keep the conclusion for summary.",
+      "Problem: Sentences feel like a list. Fix: Use transitions and explanations to show relationships between them.",
+      "Problem: Paragraphs are too similar in content. Fix: Give each paragraph a distinct focus or angle on the topic."
+    ]
+  },
+  {
+    "question": "How can I improve coherence in my writing?",
+    "answer": [
+      "Use a clear topic sentence at the start of each paragraph.",
+      "Ensure each sentence logically follows from the previous one.",
+      "Use transitions such as 'however', 'therefore', and 'for example'."
+    ],
+    "tags": [
+      "coherence",
+      "task2",
+      "paragraphing"
+    ]
+  },
+  {
+    "question": "What are topic sentences and why are they important?",
+    "answer": [
+      "A topic sentence introduces the main idea of the paragraph.",
+      "It helps guide the reader and improves coherence.",
+      "Each paragraph should focus on the idea presented in the topic sentence."
+    ],
+    "tags": [
+      "coherence",
+      "topic sentence"
+    ]
+  },
+  {
+    "question": "How do I make ideas flow smoothly?",
+    "answer": [
+      "Use cohesive devices to show relationships between ideas.",
+      "Avoid sudden or unrelated idea shifts.",
+      "Keep each paragraph focused on one clear point."
+    ],
+    "tags": [
+      "cohesion",
+      "flow"
+    ]
+  },
+  {
+    "question": "How can I avoid abrupt idea changes?",
+    "answer": [
+      "Use linking phrases to transition from one idea to another.",
+      "Plan your paragraph so each idea builds on the previous one.",
+      "Remove information that does not logically fit the paragraph."
+    ],
+    "tags": [
+      "coherence",
+      "smooth flow"
+    ]
+  },
+  {
+    "question": "How do I link paragraphs together?",
+    "answer": [
+      "Use transitional sentences at the end or start of paragraphs.",
+      "Refer back to the previous idea using referencing words.",
+      "Follow the overall essay structure to maintain a logical sequence."
+    ],
+    "tags": [
+      "cohesion",
+      "paragraphing"
+    ]
+  },
+  {
+    "question": "What cohesive devices should I use?",
+    "answer": [
+      "Use contrast devices (however, although, whereas).",
+      "Use addition devices (furthermore, in addition, moreover).",
+      "Use cause-effect devices (therefore, as a result, consequently)."
+    ],
+    "tags": [
+      "cohesive devices",
+      "linkers"
+    ]
+  },
+  {
+    "question": "How do I avoid overusing linking words?",
+    "answer": [
+      "Vary your cohesive devices to avoid repetition.",
+      "Use referencing and substitution instead of always adding connectors.",
+      "Ensure linking words are necessary and not forced."
+    ],
+    "tags": [
+      "cohesion",
+      "linking words"
+    ]
+  },
+  {
+    "question": "How can I improve paragraph structure?",
+    "answer": [
+      "Start with a topic sentence.",
+      "Explain the idea with 1–2 supporting sentences.",
+      "Add an example or final sentence to reinforce the point."
+    ],
+    "tags": [
+      "structure",
+      "task2"
+    ]
+  },
+  {
+    "question": "Why does my writing feel disconnected?",
+    "answer": [
+      "Your ideas may lack logical sequencing.",
+      "You may be mixing too many ideas in one paragraph.",
+      "Transitions may be missing or incorrectly used."
+    ],
+    "tags": [
+      "coherence",
+      "problem diagnosis"
+    ]
+  },
+  {
+    "question": "How can I fix unclear referencing?",
+    "answer": [
+      "Make sure pronouns like 'this' or 'these' clearly refer to a specific idea.",
+      "Replace vague pronouns with explicit nouns when needed.",
+      "Avoid using pronouns when multiple ideas could be confused."
+    ],
+    "tags": [
+      "referencing",
+      "cohesion"
+    ]
+  },
+  {
+    "question": "How can I create logical progression in my essay?",
+    "answer": [
+      "Organize ideas from general to specific.",
+      "Ensure each paragraph contributes to your overall argument.",
+      "Avoid introducing unrelated information."
+    ],
+    "tags": [
+      "logical progression"
+    ]
+  },
+  {
+    "question": "How can I make my introduction connect to my body paragraphs?",
+    "answer": [
+      "Ensure your thesis clearly outlines the topics you will discuss.",
+      "Start each body paragraph with a point directly connected to the thesis.",
+      "Avoid adding new ideas that are not foreshadowed in the introduction."
+    ],
+    "tags": [
+      "introduction",
+      "coherence"
+    ]
+  },
+  {
+    "question": "How can I avoid repeating ideas?",
+    "answer": [
+      "Develop each point fully instead of restating it.",
+      "Use examples and explanations to expand ideas.",
+      "Check paragraphs for redundant or duplicate sentences."
+    ],
+    "tags": [
+      "coherence",
+      "development"
+    ]
+  },
+  {
+    "question": "How do I maintain focus in each paragraph?",
+    "answer": [
+      "Stick to one main idea per paragraph.",
+      "Avoid adding unrelated supporting details.",
+      "Link all sentences back to the topic sentence."
+    ],
+    "tags": [
+      "paragraph focus"
+    ]
+  },
+  {
+    "question": "What makes a paragraph coherent?",
+    "answer": [
+      "It contains one central idea.",
+      "All sentences support that idea logically.",
+      "Transitions connect each sentence clearly."
+    ],
+    "tags": [
+      "coherence",
+      "IELTS writing"
+    ]
+  },
+  {
+    "question": "How can I show contrast effectively?",
+    "answer": [
+      "Use contrasting linkers such as 'however', 'although', and 'nevertheless'.",
+      "Place the linker correctly at the beginning or middle of the sentence.",
+      "Make sure the contrast is relevant to the argument."
+    ],
+    "tags": [
+      "contrast",
+      "cohesion"
+    ]
+  },
+  {
+    "question": "How can I make my writing easier to follow?",
+    "answer": [
+      "Use signposting language to guide the reader.",
+      "Ensure ideas follow a logical order.",
+      "Avoid including unnecessary information."
+    ],
+    "tags": [
+      "signposting",
+      "flow"
+    ]
+  },
+  {
+    "question": "How can I paraphrase more effectively for coherence?",
+    "answer": [
+      "Paraphrase main ideas using synonyms and structural changes.",
+      "Ensure your paraphrase keeps the original meaning.",
+      "Avoid over-paraphrasing that causes loss of clarity."
+    ],
+    "tags": [
+      "paraphrasing",
+      "coherence"
+    ]
+  },
+  {
+    "question": "How can I avoid confusion when referencing previous ideas?",
+    "answer": [
+      "Use 'this trend', 'this issue', or 'this problem' to specify the reference.",
+      "Avoid using 'this' alone if multiple ideas appear nearby.",
+      "Rewrite the sentence to avoid unclear references."
+    ],
+    "tags": [
+      "referencing clarity"
+    ]
+  },
+  {
+    "question": "How do I ensure smooth transitions between ideas?",
+    "answer": [
+      "Use a combination of linking words, referencing, and sentence patterns.",
+      "Plan your paragraphs so each idea builds on the previous one.",
+      "Check your writing for abrupt shifts and revise them."
+    ],
+    "tags": [
+      "smooth transitions",
+      "cohesion"
+    ]
+  },
+  {
+    "area": "Grammar",
+    "mistakes": [
+      {
+        "wrong": "People is becoming more busy in modern society.",
+        "correct": "People are becoming busier in modern society.",
+        "explanation": "The subject 'people' is plural, so it needs 'are', and the comparative form 'busier' is required."
+      },
+      {
+        "wrong": "It have many advantages for students.",
+        "correct": "It has many advantages for students.",
+        "explanation": "The singular subject 'it' requires the singular verb form 'has'."
+      },
+      {
+        "wrong": "Technology make our life more easy.",
+        "correct": "Technology makes our lives easier.",
+        "explanation": "The singular subject 'technology' needs 'makes', and 'lives' and 'easier' are the correct forms."
+      },
+      {
+        "wrong": "There is many reasons for this problem.",
+        "correct": "There are many reasons for this problem.",
+        "explanation": "'Reasons' is plural, so 'are' should be used."
+      }
+    ]
+  },
+  {
+    "area": "Vocabulary",
+    "mistakes": [
+      {
+        "wrong": "This issue is very big in our society.",
+        "correct": "This issue is very serious in our society.",
+        "explanation": "The word 'serious' is a more precise and appropriate academic choice than 'big'."
+      },
+      {
+        "wrong": "A lot of young people are addicted to their phones.",
+        "correct": "Many young people are addicted to their phones.",
+        "explanation": "'Many' is more formal than 'a lot of' in academic writing."
+      },
+      {
+        "wrong": "The government should do something about this problem.",
+        "correct": "The government should implement effective policies to address this problem.",
+        "explanation": "Avoid vague phrases like 'do something'; be specific about actions such as 'implement policies'."
+      },
+      {
+        "wrong": "This is a really bad situation.",
+        "correct": "This is a very problematic situation.",
+        "explanation": "Replace informal language like 'really bad' with more formal expressions such as 'problematic'."
+      }
+    ]
+  },
+  {
+    "area": "Coherence",
+    "mistakes": [
+      {
+        "wrong": "People work hard. Technology is developing. Education is also important.",
+        "correct": "People work hard to succeed in a rapidly developing technological world, and education plays a crucial role in preparing them for these changes.",
+        "explanation": "The original version lists unrelated sentences. The improved version connects the ideas logically."
+      },
+      {
+        "wrong": "Firstly, education is important. Secondly, some people like sports. Finally, technology is changing.",
+        "correct": "Firstly, education is important for individual development. Secondly, participation in sports can improve physical and mental health. Finally, rapid technological change affects both learning and leisure activities.",
+        "explanation": "The original version presents ideas that do not clearly relate. The improved version explains each point and links them to a broader theme."
+      },
+      {
+        "wrong": "There are many benefits of public transport. It is cheap. Some people prefer cars.",
+        "correct": "There are many benefits of public transport, such as lower cost and reduced traffic congestion. Nevertheless, some people still prefer cars for convenience and flexibility.",
+        "explanation": "The improved version uses linking words and provides a clearer relationship between ideas."
+      }
+    ]
+  },
+  {
+    "area": "Academic Tone",
+    "mistakes": [
+      {
+        "wrong": "The government really needs to fix this terrible problem.",
+        "correct": "The government urgently needs to address this serious problem.",
+        "explanation": "Replace emotional language like 'really' and 'terrible' with more formal and precise vocabulary."
+      },
+      {
+        "wrong": "Nowadays people are super busy and don't have time for anything.",
+        "correct": "Nowadays, many people lead very busy lives and have limited time for leisure activities.",
+        "explanation": "Avoid slang like 'super'; use formal, clear descriptions instead."
+      },
+      {
+        "wrong": "This idea is kind of good but also kind of bad.",
+        "correct": "This idea has both advantages and disadvantages.",
+        "explanation": "Avoid vague phrases like 'kind of'; use more specific evaluative language."
+      }
+    ]
+  },
+  {
+    "area": "Task Response",
+    "mistakes": [
+      {
+        "wrong": "The question asks about the advantages of online learning, but the essay mainly discusses traditional education.",
+        "correct": "The essay should focus on the advantages of online learning, such as flexibility and accessibility, while only briefly comparing it to traditional education if relevant.",
+        "explanation": "The response must address the specific focus of the task instead of discussing a different topic."
+      },
+      {
+        "wrong": "The essay only presents one side of the argument when the question asks for both views.",
+        "correct": "When the question asks to discuss both views, the essay should fairly present and evaluate both perspectives before giving an opinion.",
+        "explanation": "Failure to cover all parts of the question results in a lower task response score."
+      },
+      {
+        "wrong": "The conclusion introduces a new idea that was not mentioned in the body paragraphs.",
+        "correct": "The conclusion should summarize the main points discussed and restate the overall position without adding new ideas.",
+        "explanation": "New arguments should be developed in body paragraphs, not introduced in the conclusion."
+      }
+    ]
+  },
+  {
+    "question": "How do I structure an opinion essay (agree/disagree)?",
+    "answer": [
+      "Introduction: Paraphrase the question and state your opinion clearly.",
+      "Body 1: Present your first reason with explanation and an example.",
+      "Body 2: Present your second reason with explanation and an example.",
+      "Conclusion: Restate your opinion and summarize your key points."
+    ],
+    "tags": [
+      "opinion essay",
+      "structure",
+      "task2"
+    ]
+  },
+  {
+    "question": "How do I write a balanced opinion essay?",
+    "answer": [
+      "Introduction: Paraphrase the question and give a partially agree/disagree thesis.",
+      "Body 1: Explain the reasons you agree with the statement.",
+      "Body 2: Explain the reasons you disagree with the statement.",
+      "Conclusion: Summarize both sides and restate your balanced position."
+    ],
+    "tags": [
+      "opinion",
+      "balanced",
+      "task2"
+    ]
+  },
+  {
+    "question": "How can I structure a discussion essay (discuss both views)?",
+    "answer": [
+      "Introduction: Paraphrase the task and mention both views.",
+      "Body 1: Explain the first view with reasons and an example.",
+      "Body 2: Explain the second view with reasons and an example.",
+      "Conclusion: State your opinion or summarize both views depending on the question."
+    ],
+    "tags": [
+      "discussion essay",
+      "structure"
+    ]
+  },
+  {
+    "question": "How do I write an advantages/disadvantages essay?",
+    "answer": [
+      "Introduction: Paraphrase the question and introduce the topic.",
+      "Body 1: Explain the advantages with detailed reasoning and an example.",
+      "Body 2: Explain the disadvantages similarly.",
+      "Conclusion: Summarize the main advantage and disadvantage."
+    ],
+    "tags": [
+      "advantages disadvantages",
+      "task2"
+    ]
+  },
+  {
+    "question": "How do I structure a problem/solution essay?",
+    "answer": [
+      "Introduction: Paraphrase the question and mention the problem and solution.",
+      "Body 1: Describe the main problem with explanation and an example.",
+      "Body 2: Present a realistic solution with detailed explanation.",
+      "Conclusion: Summarize the problem and the proposed solution."
+    ],
+    "tags": [
+      "problem solution",
+      "structure"
+    ]
+  },
+  {
+    "question": "How do I answer a two-part question (Direct Question essay)?",
+    "answer": [
+      "Introduction: Paraphrase the topic and mention that you will answer both questions.",
+      "Body 1: Answer the first question clearly with explanation and example.",
+      "Body 2: Answer the second question with explanation and example.",
+      "Conclusion: Summarize both answers."
+    ],
+    "tags": [
+      "two part question",
+      "task2"
+    ]
+  },
+  {
+    "question": "How do I write a strong introduction for any Task 2 essay?",
+    "answer": [
+      "Paraphrase the question using synonyms and different sentence structures.",
+      "State your thesis clearly, outlining your main view or approach.",
+      "Avoid including examples or supporting details in the introduction."
+    ],
+    "tags": [
+      "introduction",
+      "task2"
+    ]
+  },
+  {
+    "question": "How do I write a strong conclusion for a Task 2 essay?",
+    "answer": [
+      "Summarize your key arguments without repeating exact sentences.",
+      "Restate your opinion if the task requires it.",
+      "Avoid introducing new ideas or examples."
+    ],
+    "tags": [
+      "conclusion",
+      "task2"
+    ]
+  },
+  {
+    "question": "What structure should I use for a 'To what extent do you agree?' question?",
+    "answer": [
+      "Use a clear position: fully agree or partially agree.",
+      "Body 1: Give your strongest argument with explanation.",
+      "Body 2: Provide a second supporting argument.",
+      "Conclusion: Restate your extent of agreement."
+    ],
+    "tags": [
+      "opinion essay",
+      "extent",
+      "task2"
+    ]
+  },
+  {
+    "question": "How do I structure a 'Do the advantages outweigh the disadvantages?' essay?",
+    "answer": [
+      "Introduction: Paraphrase the topic and state your opinion.",
+      "Body 1: Explain the stronger side (advantages or disadvantages).",
+      "Body 2: Explain the weaker side.",
+      "Conclusion: Reinforce which side outweighs the other."
+    ],
+    "tags": [
+      "advantages disadvantages",
+      "outweigh"
+    ]
+  },
+  {
+    "question": "How should I structure an essay when I completely disagree?",
+    "answer": [
+      "Introduction: Paraphrase and state you completely disagree.",
+      "Body 1: Give the first negative argument with reasoning.",
+      "Body 2: Give the second negative argument.",
+      "Conclusion: Reconfirm your disagreement."
+    ],
+    "tags": [
+      "opinion",
+      "disagree"
+    ]
+  },
+  {
+    "question": "How do I write a body paragraph effectively?",
+    "answer": [
+      "Start with a topic sentence that introduces the main idea.",
+      "Explain the idea using 1–2 clear sentences.",
+      "Give a specific example or supporting detail.",
+      "End with a mini-conclusion connecting back to the main argument."
+    ],
+    "tags": [
+      "body paragraph",
+      "structure"
+    ]
+  },
+  {
+    "question": "How do I structure a paragraph with multiple ideas?",
+    "answer": [
+      "Avoid adding multiple separate ideas in one paragraph.",
+      "Focus on one main idea supported by explanation and example.",
+      "Use another paragraph for additional ideas."
+    ],
+    "tags": [
+      "paragraphing",
+      "coherence"
+    ]
+  },
+  {
+    "question": "How do I create a high-scoring thesis statement?",
+    "answer": [
+      "State your main position clearly in one sentence.",
+      "Avoid explanations, reasons, or examples in the thesis.",
+      "Make sure the thesis directly answers the question."
+    ],
+    "tags": [
+      "thesis",
+      "task2"
+    ]
+  },
+  {
+    "question": "What is the best structure for a hybrid question?",
+    "answer": [
+      "Identify all components of the task, even if mixed.",
+      "Use 2–3 body paragraphs to address each part separately.",
+      "Maintain a clear opinion throughout the essay if required."
+    ],
+    "tags": [
+      "hybrid",
+      "task2"
+    ]
+  },
+  {
+    "question": "How should I organize ideas in a discussion + opinion essay?",
+    "answer": [
+      "Body 1: Explain the first view.",
+      "Body 2: Explain the second view.",
+      "Body 3: Present your own opinion clearly.",
+      "Ensure each paragraph is well-developed with examples."
+    ],
+    "tags": [
+      "discussion opinion",
+      "structure"
+    ]
+  },
+  {
+    "question": "How do I create a logical flow between paragraphs?",
+    "answer": [
+      "Use signposting phrases like 'The first major reason', 'Another key factor'.",
+      "Ensure paragraphs follow a natural progression of ideas.",
+      "Use mini-summaries at the end of paragraphs to improve coherence."
+    ],
+    "tags": [
+      "coherence",
+      "flow"
+    ]
+  },
+  {
+    "question": "How do I write a plan quickly before writing?",
+    "answer": [
+      "Identify your position in one short sentence.",
+      "Write 2–3 main ideas to support your position.",
+      "Assign one idea to each body paragraph and think of an example for each."
+    ],
+    "tags": [
+      "planning",
+      "task2"
+    ]
+  },
+  {
+    "question": "How do I avoid memorized templates?",
+    "answer": [
+      "Use flexible structures rather than fixed, overused phrases.",
+      "Adapt your introduction and conclusion to the specific question.",
+      "Avoid generic templates like 'Nowadays, it is commonly believed that…'."
+    ],
+    "tags": [
+      "templates",
+      "naturalness"
+    ]
+  },
+  {
+    "question": "What common structure mistakes lower scores?",
+    "answer": [
+      "Writing body paragraphs with no clear topic sentence.",
+      "Adding unrelated information just to increase word count.",
+      "Forgetting to summarize ideas in the conclusion."
+    ],
+    "tags": [
+      "structure",
+      "mistakes"
+    ]
+  },
+  {
+    "feedback_type": "Grammar",
+    "feedback_examples": [
+      "Your sentences are mostly simple; try adding more complex structures to improve grammatical range.",
+      "There are several verb tense inconsistencies. Make sure the tense matches the context of the sentence.",
+      "Some sentences are too long and become run-on sentences. Break them into shorter, clearer statements.",
+      "You have a few sentence fragments. Ensure each sentence has a subject and a verb.",
+      "Subject–verb agreement errors appear in multiple places. Review the rules and revise accordingly.",
+      "Try varying sentence openings to make the writing less repetitive.",
+      "Incorrect article usage affects clarity. Pay attention to when to use 'a', 'an', or 'the'.",
+      "Some modifiers are misplaced, making sentences confusing. Rewrite for clarity."
+    ]
+  },
+  {
+    "feedback_type": "Vocabulary",
+    "feedback_examples": [
+      "You repeat certain words too often. Try using appropriate synonyms to increase lexical variety.",
+      "Some words are too informal for academic writing. Replace them with formal alternatives.",
+      "Your vocabulary is sometimes vague. Choose more precise words to express your ideas clearly.",
+      "Try using topic-specific vocabulary to demonstrate stronger understanding of the subject.",
+      "Avoid using advanced words unnaturally. Prioritize clarity over complexity.",
+      "Some word forms are incorrect. Make sure nouns, verbs, adjectives, and adverbs are used properly.",
+      "You use several clichés and conversational expressions. Remove or replace them with academic phrasing."
+    ]
+  },
+  {
+    "feedback_type": "Coherence & Cohesion",
+    "feedback_examples": [
+      "Your paragraphs lack clear topic sentences. Start each paragraph by stating the main idea.",
+      "Ideas do not flow smoothly. Add linking words or transitional phrases to show relationships between points.",
+      "Some paragraphs mix multiple ideas. Keep each paragraph focused on one clear point.",
+      "The order of ideas feels abrupt in places. Consider reorganizing sentences for logical flow.",
+      "Your use of linking words is repetitive. Try varying them to make the writing more fluid.",
+      "Some references like 'this' or 'these' are unclear. Make sure it’s obvious what they refer to."
+    ]
+  },
+  {
+    "feedback_type": "Task Response",
+    "feedback_examples": [
+      "You did not fully address all parts of the question. Make sure your essay responds to the entire prompt.",
+      "Your thesis statement is unclear or missing. Add a clear argument to guide the essay.",
+      "Some ideas are stated but not developed. Add explanations or examples to strengthen your points.",
+      "Some examples are not connected to the argument. Choose more relevant examples.",
+      "Avoid repeating the same point in different words. Introduce new supporting ideas instead.",
+      "Your conclusion introduces new information. A conclusion should only summarize key points."
+    ]
+  },
+  {
+    "feedback_type": "Academic Tone",
+    "feedback_examples": [
+      "Avoid contractions in academic writing (e.g., use 'do not' instead of 'don't').",
+      "Your essay uses several informal phrases. Replace them with formal academic language.",
+      "Avoid first-person pronouns like 'I think' unless the task specifically allows personal opinion.",
+      "Some statements sound emotional or exaggerated. Keep the tone neutral and objective.",
+      "Avoid rhetorical questions; academic writing requires direct statements.",
+      "Some sentences are too casual. Maintain a consistent academic tone throughout the essay.",
+      "Use precise, formal vocabulary instead of conversational expressions."
+    ]
+  },
+  {
+    "question": "How can I improve my grammatical range in IELTS Writing?",
+    "answer": [
+      "Use a mix of simple, compound, and complex sentences.",
+      "Incorporate subordinate clauses such as 'although', 'while', and 'because'.",
+      "Vary your sentence openings to avoid repetitive patterns."
+    ],
+    "tags": [
+      "grammar",
+      "complex sentences"
+    ]
+  },
+  {
+    "question": "Why are complex sentences important in IELTS?",
+    "answer": [
+      "Complex sentences demonstrate your ability to express layered ideas.",
+      "They help you show logical relationships between ideas.",
+      "Accurate complex structures contribute to higher band scores."
+    ],
+    "tags": [
+      "grammar",
+      "complexity"
+    ]
+  },
+  {
+    "question": "How do I avoid run-on sentences?",
+    "answer": [
+      "Use punctuation such as commas or semicolons to separate independent clauses.",
+      "Add linking words like 'so', 'because', or 'however' when needed.",
+      "Break long sentences into two if the ideas are unrelated."
+    ],
+    "tags": [
+      "grammar",
+      "run-on errors"
+    ]
+  },
+  {
+    "question": "How can I avoid verb tense mistakes?",
+    "answer": [
+      "Check whether the topic is general, past, or future and use tenses accordingly.",
+      "Avoid switching tenses without a clear reason.",
+      "Use present simple for general truths and opinions in Task 2."
+    ],
+    "tags": [
+      "grammar",
+      "tenses"
+    ]
+  },
+  {
+    "question": "How do I fix subject–verb agreement errors?",
+    "answer": [
+      "Identify whether the subject is singular or plural before choosing the verb.",
+      "Remember that 'people', 'children', and 'police' are plural.",
+      "Use plural verbs when the subject refers to many individuals."
+    ],
+    "tags": [
+      "grammar",
+      "subject-verb agreement"
+    ]
+  },
+  {
+    "question": "How can I improve my vocabulary range?",
+    "answer": [
+      "Study topic-specific vocabulary related to common IELTS themes.",
+      "Replace basic words with more precise synonyms.",
+      "Learn common academic collocations and use them naturally."
+    ],
+    "tags": [
+      "vocabulary",
+      "lexical resource"
+    ]
+  },
+  {
+    "question": "How can I avoid using informal vocabulary?",
+    "answer": [
+      "Replace slang and conversational phrases with formal alternatives.",
+      "Avoid contractions such as 'don't' or 'won't' in academic writing.",
+      "Use academic-style verbs like 'increase' rather than 'go up'."
+    ],
+    "tags": [
+      "vocabulary",
+      "academic tone"
+    ]
+  },
+  {
+    "question": "How do I avoid repeating the same vocabulary?",
+    "answer": [
+      "Use synonyms that fit the context correctly.",
+      "Learn different forms of a word (noun, verb, adjective, adverb).",
+      "Use pronouns, referencing, or paraphrasing to avoid repetition."
+    ],
+    "tags": [
+      "vocabulary range"
+    ]
+  },
+  {
+    "question": "How can I choose better synonyms without sounding unnatural?",
+    "answer": [
+      "Avoid overly advanced or obscure words that do not match the tone.",
+      "Use synonyms that accurately reflect the meaning of the original word.",
+      "Check how words collocate to ensure natural usage."
+    ],
+    "tags": [
+      "word choice",
+      "synonyms"
+    ]
+  },
+  {
+    "question": "What are collocations and why are they important?",
+    "answer": [
+      "Collocations are natural word combinations used by native speakers.",
+      "Using correct collocations makes your writing more fluent.",
+      "Examples include 'make progress', 'heavy traffic', and 'strong argument'."
+    ],
+    "tags": [
+      "collocations",
+      "lexical resource"
+    ]
+  },
+  {
+    "question": "How can I improve accuracy in my writing?",
+    "answer": [
+      "Review your writing for common errors such as articles and verb tenses.",
+      "Edit each paragraph after writing to find grammatical mistakes.",
+      "Use simple, correct structures instead of overly complex but incorrect ones."
+    ],
+    "tags": [
+      "accuracy",
+      "editing"
+    ]
+  },
+  {
+    "question": "How do I avoid vague vocabulary?",
+    "answer": [
+      "Replace vague words like 'things', 'stuff', or 'a lot' with precise terms.",
+      "Use specific nouns and verbs that clearly express your idea.",
+      "Ensure your vocabulary directly relates to the essay topic."
+    ],
+    "tags": [
+      "vagueness",
+      "precision"
+    ]
+  },
+  {
+    "question": "How can I improve my spelling for IELTS?",
+    "answer": [
+      "Practice writing common academic words repeatedly.",
+      "Check your final draft for common spelling mistakes.",
+      "Avoid unfamiliar words if you are unsure about spelling."
+    ],
+    "tags": [
+      "spelling",
+      "lexical resource"
+    ]
+  },
+  {
+    "question": "How do I write more formal sentences?",
+    "answer": [
+      "Use academic vocabulary instead of informal expressions.",
+      "Avoid contractions and slang.",
+      "Use passive voice or impersonal structures where appropriate."
+    ],
+    "tags": [
+      "formal writing",
+      "academic tone"
+    ]
+  },
+  {
+    "question": "Why does my writing sound unnatural?",
+    "answer": [
+      "You may be forcing advanced vocabulary into inappropriate contexts.",
+      "Some of your word choices may not collocate naturally.",
+      "You may be translating ideas directly from your native language."
+    ],
+    "tags": [
+      "naturalness",
+      "lexical resource"
+    ]
+  },
+  {
+    "question": "How do I improve sentence variety?",
+    "answer": [
+      "Combine short sentences using linking words.",
+      "Use relative clauses such as 'which', 'who', and 'that'.",
+      "Use adverbial clauses introduced by 'when', 'if', and 'although'."
+    ],
+    "tags": [
+      "sentence variety",
+      "grammar range"
+    ]
+  },
+  {
+    "question": "How do I avoid confusing pronoun references?",
+    "answer": [
+      "Ensure pronouns like 'it', 'this', or 'they' refer to a clear noun.",
+      "Avoid placing pronouns too far from the ideas they reference.",
+      "Rewrite the sentence if the reference is unclear."
+    ],
+    "tags": [
+      "pronouns",
+      "clarity"
+    ]
+  },
+  {
+    "question": "How can I make my vocabulary more academic?",
+    "answer": [
+      "Use formal verbs such as 'increase', 'reduce', or 'enhance'.",
+      "Use academic nouns like 'impact', 'benefit', and 'issue'.",
+      "Avoid using informal phrasal verbs like 'put off' or 'get rid of'."
+    ],
+    "tags": [
+      "academic vocabulary",
+      "tone"
+    ]
+  },
+  {
+    "question": "How do I avoid article errors?",
+    "answer": [
+      "Use 'a' or 'an' for general singular nouns.",
+      "Use 'the' for specific nouns previously mentioned or known.",
+      "Avoid adding unnecessary articles to uncountable nouns."
+    ],
+    "tags": [
+      "articles",
+      "grammar"
+    ]
+  },
+  {
+    "question": "How do I improve lexical precision?",
+    "answer": [
+      "Choose vocabulary that expresses your meaning exactly.",
+      "Avoid using synonyms that are close but not accurate.",
+      "Check collocations to ensure natural-sounding combinations."
+    ],
+    "tags": [
+      "precision",
+      "lexical resource"
+    ]
+  },
+  {
+    "category": "Grammatical Range & Accuracy",
+    "definition": "The writer’s ability to use a variety of grammatical structures accurately and appropriately.",
+    "criteria": [
+      "Use simple, compound, and complex sentences naturally.",
+      "Demonstrate a wide range of grammar structures such as relative clauses, conditionals, and passive voice.",
+      "Keep verb tenses consistent and appropriate for context.",
+      "Avoid run-on sentences.",
+      "Avoid incomplete (fragment) sentences.",
+      "Maintain correct subject–verb agreement.",
+      "Use articles correctly (a, an, the).",
+      "Use correct prepositions in phrases (depend on, responsible for).",
+      "Place adverbs correctly (often, usually, rarely).",
+      "Use modal verbs accurately (should, might, could).",
+      "Use quantifiers correctly (much, many, few, little).",
+      "Avoid misplaced or dangling modifiers.",
+      "Use punctuation accurately: commas, semicolons, colons.",
+      "Minimize grammar errors that reduce clarity.",
+      "Do not force advanced structures unnaturally."
+    ]
+  },
+  {
+    "category": "Lexical Resource",
+    "definition": "The quality, variety, accuracy, and appropriateness of vocabulary used in academic writing.",
+    "criteria": [
+      "Use a wide variety of vocabulary relevant to the topic.",
+      "Avoid repeating the same words; use synonyms when appropriate.",
+      "Use academic vocabulary instead of informal terms.",
+      "Use precise vocabulary and avoid vague words.",
+      "Use correct word forms (noun, adjective, verb, adverb).",
+      "Use domain-specific vocabulary when appropriate.",
+      "Use natural collocations (make progress, take responsibility).",
+      "Avoid incorrect or unnatural synonyms.",
+      "Avoid emotional or dramatic vocabulary.",
+      "Avoid clichés and conversational expressions.",
+      "Spell words correctly.",
+      "Use transition words appropriately (however, therefore, moreover).",
+      "Do not overuse linking words.",
+      "Maintain vocabulary appropriate for academic tone."
+    ]
+  },
+  {
+    "category": "Coherence & Cohesion",
+    "definition": "The clarity and organization of ideas, and how well paragraphs and sentences are connected logically.",
+    "criteria": [
+      "Each paragraph has one clear main idea.",
+      "Begin paragraphs with clear topic sentences.",
+      "Keep sentences in logical order within paragraphs.",
+      "Ensure smooth flow from introduction to conclusion.",
+      "Use linking words naturally (firstly, furthermore, finally).",
+      "Avoid overusing connectors.",
+      "Use pronoun referencing effectively (this trend, these results).",
+      "Maintain consistent paragraph structure.",
+      "Avoid abrupt changes in ideas.",
+      "Provide smooth transitions between paragraphs.",
+      "Avoid too short or excessively long paragraphs.",
+      "Use punctuation to maintain clarity.",
+      "Keep ideas unified within paragraphs.",
+      "Ensure examples clearly support the argument."
+    ]
+  },
+  {
+    "category": "Task Response",
+    "definition": "How fully and effectively the essay answers the prompt and develops ideas.",
+    "criteria": [
+      "Address all parts of the question.",
+      "Provide a clear thesis or main argument.",
+      "Develop each idea with sufficient explanation.",
+      "Include relevant examples.",
+      "Stay on topic throughout the essay.",
+      "Avoid repeating points.",
+      "Present balanced and well-reasoned arguments.",
+      "Avoid general statements without detail.",
+      "Use logical or real-world examples when needed.",
+      "Ensure paragraphs support the thesis.",
+      "Avoid irrelevant information.",
+      "Do not introduce new ideas in the conclusion.",
+      "Maintain a clear and consistent point of view.",
+      "Show clear understanding of the topic."
+    ]
+  },
+  {
+    "category": "Academic Tone",
+    "definition": "The degree of formality, professionalism, and objectivity in the writing.",
+    "criteria": [
+      "Use formal academic language.",
+      "Avoid contractions (do not instead of don't).",
+      "Avoid slang or conversational phrases.",
+      "Avoid personal pronouns unless necessary.",
+      "Use passive voice when appropriate.",
+      "Avoid emotional or exaggerated language.",
+      "Write in an objective and neutral manner.",
+      "Maintain consistent tone throughout.",
+      "Present information factually, not emotionally.",
+      "Avoid rhetorical questions.",
+      "Use clear and precise phrasing.",
+      "Avoid humor or sarcasm.",
+      "Maintain professional vocabulary."
+    ]
+  },
+  {
+    "anchor_type": "Sentence Flow Improvement",
+    "anchors": [
+      "To make sentences flow smoothly, use transitions that show how ideas relate.",
+      "Sentence flow improves when each sentence clearly builds on the previous one.",
+      "Smooth writing requires logical sequencing between sentences.",
+      "Use cohesive devices to connect sentences and prevent choppy writing.",
+      "Choppy writing occurs when sentences are not connected with appropriate transitions.",
+      "To avoid choppy writing, use linking words such as 'however', 'therefore', and 'moreover'.",
+      "Smooth sentence flow depends on clear relationships between ideas.",
+      "Use connectors to show addition, contrast, cause, and results between sentences.",
+      "Sentences should not feel isolated; connect them using cohesive expressions.",
+      "To improve flow, avoid jumping from one idea to another without explanation."
+    ]
+  },
+  {
+    "anchor_type": "Transitions for Smooth Writing",
+    "anchors": [
+      "Transitions such as 'as a result', 'in contrast', and 'for instance' create smooth sentence flow.",
+      "Effective transitions help the reader understand how one sentence leads to the next.",
+      "To improve sentence flow, vary transition types depending on the relationship between ideas.",
+      "Use transitional phrases to guide the reader through your sentences smoothly.",
+      "Place transitions at the beginning of sentences to signal relationships clearly.",
+      "Smooth writing relies on strong transitions that link ideas together.",
+      "Transitions reduce abruptness and make writing more coherent."
+    ]
+  },
+  {
+    "anchor_type": "Fixing Choppy Writing",
+    "anchors": [
+      "Choppy writing is caused by short, disconnected sentences.",
+      "Combine short sentences when ideas are closely related to improve flow.",
+      "Add explanation sentences to prevent a list-like, choppy structure.",
+      "Use reference words like 'this issue', 'these factors', or 'such problems' to link sentences.",
+      "Avoid starting many sentences with the same structure to prevent choppiness.",
+      "Use pronoun referencing and substitution to keep sentences connected.",
+      "Choppy writing improves when sentences vary in length and structure."
+    ]
+  },
+  {
+    "anchor_type": "Sentence-Level Cohesion",
+    "anchors": [
+      "Cohesion at the sentence level is achieved through transitions, references, and sequencing.",
+      "Use appropriate cohesive devices to maintain sentence-to-sentence unity.",
+      "Sentence cohesion increases when key terms are repeated or paraphrased logically.",
+      "Use synonyms and lexical chains to connect sentence ideas smoothly.",
+      "Ensure pronouns refer clearly to previous ideas to maintain cohesion.",
+      "Sentence cohesion is essential for creating a natural flow in writing."
+    ]
+  },
+  {
+    "question": "How do I structure an IELTS Task 1 response?",
+    "answer": [
+      "Start with an overview summarizing the most important trends or features.",
+      "Write 2 body paragraphs grouping similar data or describing stages logically.",
+      "Avoid giving your opinion and focus only on describing information."
+    ],
+    "tags": [
+      "task1",
+      "structure"
+    ]
+  },
+  {
+    "question": "What is the overview in Task 1?",
+    "answer": [
+      "The overview highlights the main trends, patterns, or key features.",
+      "It should not include specific numbers.",
+      "It usually consists of one or two general statements summarizing the data."
+    ],
+    "tags": [
+      "task1",
+      "overview"
+    ]
+  },
+  {
+    "question": "How do I describe trends in line graphs?",
+    "answer": [
+      "Use verbs like 'increase', 'decrease', 'fluctuate', and 'remain stable'.",
+      "Use adverbs like 'gradually', 'significantly', or 'sharply' to show degree.",
+      "Group similar trends to avoid describing each line separately."
+    ],
+    "tags": [
+      "task1",
+      "line graph"
+    ]
+  },
+  {
+    "question": "How do I compare data in bar charts?",
+    "answer": [
+      "Identify the highest and lowest categories.",
+      "Group similar categories to avoid repetition.",
+      "Use comparative language such as 'more than', 'less than', or 'twice as much'."
+    ],
+    "tags": [
+      "task1",
+      "bar chart",
+      "comparison"
+    ]
+  },
+  {
+    "question": "How do I describe proportions in pie charts?",
+    "answer": [
+      "Use percentage-based vocabulary such as 'accounted for' or 'made up'.",
+      "Compare the largest and smallest sections.",
+      "Group similar proportions instead of describing each slice individually."
+    ],
+    "tags": [
+      "task1",
+      "pie chart",
+      "percentages"
+    ]
+  },
+  {
+    "question": "How do I describe changes over time?",
+    "answer": [
+      "Use past tenses when the time period is in the past.",
+      "Use present perfect when the trend continues to the present.",
+      "Show the overall change before describing details."
+    ],
+    "tags": [
+      "task1",
+      "tenses",
+      "changes over time"
+    ]
+  },
+  {
+    "question": "How can I group information effectively in Task 1?",
+    "answer": [
+      "Identify categories that share similar patterns.",
+      "Put related data into the same paragraph.",
+      "Avoid describing data point by point, which leads to a low coherence score."
+    ],
+    "tags": [
+      "task1",
+      "grouping",
+      "coherence"
+    ]
+  },
+  {
+    "question": "How do I describe fluctuations?",
+    "answer": [
+      "Use vocabulary such as 'fluctuated', 'rose and fell', or 'experienced volatility'.",
+      "Indicate whether fluctuations were minor or significant.",
+      "Include start and end points to show overall direction."
+    ],
+    "tags": [
+      "task1",
+      "line graph",
+      "fluctuations"
+    ]
+  },
+  {
+    "question": "How do I describe a map in Task 1?",
+    "answer": [
+      "Use present tense if the map shows a current layout and past tense for changes.",
+      "Describe major changes such as added buildings, new roads, or removed areas.",
+      "Group changes by area or type rather than describing each detail separately."
+    ],
+    "tags": [
+      "task1",
+      "maps"
+    ]
+  },
+  {
+    "question": "What vocabulary can I use for map changes?",
+    "answer": [
+      "Use verbs such as 'was converted into', 'was demolished', or 'was expanded'.",
+      "Use phrases like 'the area witnessed significant development'.",
+      "Use passive voice to describe changes formally."
+    ],
+    "tags": [
+      "task1",
+      "maps",
+      "vocabulary"
+    ]
+  },
+  {
+    "question": "How do I describe a process diagram?",
+    "answer": [
+      "Use passive voice to describe stages objectively.",
+      "Use sequence words such as 'first', 'next', 'after that', and 'finally'.",
+      "Explain the input, major stages, and final output clearly."
+    ],
+    "tags": [
+      "task1",
+      "process",
+      "sequence"
+    ]
+  },
+  {
+    "question": "How do I avoid adding my opinion in Task 1?",
+    "answer": [
+      "Focus only on describing visual information.",
+      "Do not explain reasons, causes, or consequences unless shown in the chart.",
+      "Avoid personal phrases such as 'I think' or 'in my opinion'."
+    ],
+    "tags": [
+      "task1",
+      "academic tone"
+    ]
+  },
+  {
+    "question": "How do I describe extremes in data?",
+    "answer": [
+      "Use expressions like 'the highest', 'the lowest', or 'the dominant trend'.",
+      "Highlight extreme categories in the overview.",
+      "Compare extremes with mid-range categories when relevant."
+    ],
+    "tags": [
+      "task1",
+      "comparison",
+      "extremes"
+    ]
+  },
+  {
+    "question": "How do I report numbers accurately?",
+    "answer": [
+      "Use approximations such as 'about', 'nearly', or 'approximately' when needed.",
+      "Round numbers carefully to maintain accuracy.",
+      "Avoid giving unnecessary decimal details."
+    ],
+    "tags": [
+      "task1",
+      "accuracy"
+    ]
+  },
+  {
+    "question": "How can I improve cohesion in Task 1?",
+    "answer": [
+      "Use linking words appropriately to connect descriptions.",
+      "Avoid repeating the same transitions too often.",
+      "Group related data in logical sequence."
+    ],
+    "tags": [
+      "task1",
+      "cohesion"
+    ]
+  },
+  {
+    "question": "How do I improve vocabulary for Task 1?",
+    "answer": [
+      "Learn trend vocabulary such as 'increase significantly' or 'drop slightly'.",
+      "Use formal academic verbs like 'exhibit', 'demonstrate', and 'represent'.",
+      "Use nouns such as 'growth', 'decline', and 'stability' to vary sentence structure."
+    ],
+    "tags": [
+      "task1",
+      "vocabulary"
+    ]
+  },
+  {
+    "question": "How do I avoid writing too many numbers?",
+    "answer": [
+      "Select only key data that shows major trends.",
+      "Group similar figures instead of writing each data point.",
+      "Include detailed numbers only when necessary for clarity."
+    ],
+    "tags": [
+      "task1",
+      "data selection"
+    ]
+  },
+  {
+    "question": "How do I write about stages in a process?",
+    "answer": [
+      "Describe each stage in order without skipping steps.",
+      "Use passive voice to focus on actions rather than people.",
+      "Highlight the starting input and the final output."
+    ],
+    "tags": [
+      "task1",
+      "process"
+    ]
+  },
+  {
+    "question": "How long should a Task 1 answer be?",
+    "answer": [
+      "Write at least 150 words to avoid penalties.",
+      "Aim for 160–190 words for clear, complete descriptions.",
+      "Avoid adding unnecessary details to increase word count."
+    ],
+    "tags": [
+      "task1",
+      "length"
+    ]
+  },
+  {
+    "question": "What common mistakes should I avoid in Task 1?",
+    "answer": [
+      "Describing every single number individually.",
+      "Including opinions or reasons not shown in the chart.",
+      "Missing the overview or placing it at the end instead of after the introduction."
+    ],
+    "tags": [
+      "task1",
+      "mistakes"
+    ]
+  },
+  {
+    "feedback_type": "Task 1: Trends & Charts",
+    "feedback_examples": [
+      "Use verbs like 'rose', 'increased', and 'grew' to describe upward trends.",
+      "Use verbs like 'declined', 'dropped', and 'fell' for downward trends.",
+      "Use adverbs such as 'gradually', 'significantly', and 'dramatically' to indicate the degree of change.",
+      "Use 'remained stable' or 'showed little change' to describe flat trends.",
+      "Use 'peaked at' to describe the highest point of the chart.",
+      "Use 'bottomed out at' to describe the lowest point.",
+      "Use 'fluctuated' to describe repeated rises and falls.",
+      "When describing change amount, use 'increased by…' not 'increased to…'.",
+      "When describing final number, use 'rose to…' instead of 'rose by…'.",
+      "Use 'the figure stood at' to introduce specific values in charts.",
+      "Use 'the trend reversed' to describe a sudden direction change.",
+      "Use 'A was twice as high as B' to compare values precisely.",
+      "Use 'the gap widened' to describe growing differences.",
+      "Use 'in contrast' to highlight an opposite trend.",
+      "Use 'while' or 'whereas' to describe two opposite trends in the same sentence."
+    ]
+  },
+  {
+    "feedback_type": "Task 1: Maps & Diagrams",
+    "feedback_examples": [
+      "Use the passive voice to describe map changes (e.g., 'a road was constructed').",
+      "Use 'was demolished', 'was removed', or 'was replaced' to describe structures that disappeared.",
+      "Use 'was converted into' to describe functional changes.",
+      "Use 'expanded' to show an area becoming larger.",
+      "Use 'north of', 'south of', 'adjacent to', and 'next to' for spatial relationships.",
+      "Use 'previously', 'afterwards', and 'over time' to indicate sequence of changes.",
+      "Use 'the area became residential' to describe land use change.",
+      "Use 'a new facility was introduced' to show added features.",
+      "Use 'the path was rerouted' when roads or walkways change direction.",
+      "Use 'the town center was modernized' for large-scale upgrades.",
+      "Use 'the river was redirected' for major geographic modifications.",
+      "Use 'green spaces were added' to describe environmental improvements."
+    ]
+  },
+  {
+    "feedback_type": "Task 1: Process Descriptions",
+    "feedback_examples": [
+      "Use the present simple passive for process descriptions (e.g., 'the mixture is heated').",
+      "Use 'first', 'next', 'after that', and 'finally' for sequencing steps.",
+      "Use 'is transported to' to describe material movement.",
+      "Use 'undergoes' to describe transformation steps.",
+      "Use 'is stored in' for temporary holding stages.",
+      "Use 'is mixed with' to describe combination processes.",
+      "Use 'flows into' for describing movement of liquids.",
+      "Use 'the cycle repeats' for circular processes.",
+      "Use 'is filtered' or 'is separated' for purification steps.",
+      "Use 'is compressed', 'is flattened', or 'is shaped' for industrial processes.",
+      "Use 'is packaged' to describe final production stages."
+    ]
+  },
+  {
+    "feedback_type": "Essay Structure Templates",
+    "feedback_examples": [
+      "In opinion essays, clearly state your position in the introduction.",
+      "Use 'I firmly believe that…' to express a strong opinion.",
+      "In discussion essays, present both views objectively before giving your opinion.",
+      "Use 'supporters of this view argue that…' to introduce one perspective.",
+      "Use 'on the other hand' to introduce the opposing view.",
+      "In advantages/disadvantages essays, present both sides equally.",
+      "Use 'one significant advantage is that…' to introduce a benefit.",
+      "Use 'however, a major drawback is that…' to present a disadvantage.",
+      "In problem/solution essays, clearly explain the causes before proposing solutions.",
+      "Use 'a key cause of this issue is…' to introduce the problem.",
+      "Use 'a possible solution is…' to suggest remedies.",
+      "Avoid giving solutions that do not address the actual problem.",
+      "Use conclusions to summarize, not to introduce new ideas."
+    ]
+  },
+  {
+    "feedback_type": "Band 8–9 Lexical Resource",
+    "feedback_examples": [
+      "Use precise verbs like 'exacerbate', 'mitigate', and 'facilitate' to convey nuanced meaning.",
+      "Use adverbs such as 'predominantly', 'notably', and 'substantially' for academic tone.",
+      "Use nouns like 'implications', 'consequences', and 'justification' for clear argumentation.",
+      "Use academic structures like 'it is evident that…' to strengthen the tone.",
+      "Use hedging language such as 'it is likely that…' to sound analytical.",
+      "Use 'a compelling argument is that…' when presenting strong points.",
+      "Avoid overusing simple adjectives like 'good' or 'bad'. Choose more precise alternatives.",
+      "Use 'from an academic standpoint' to introduce a scholarly perspective.",
+      "Use 'to a considerable extent' to add nuance to your claims.",
+      "Avoid using advanced vocabulary unnaturally; prioritize clarity and accuracy."
+    ]
+  },
+  {
+    "question": "How can I fully address all parts of the IELTS Task 2 question?",
+    "answer": [
+      "Identify whether the question has one, two, or three parts.",
+      "Underline key instructions such as 'discuss both views', 'to what extent', or 'include examples'.",
+      "Make sure each paragraph directly answers a part of the question without going off-topic."
+    ],
+    "tags": [
+      "task response",
+      "task2"
+    ]
+  },
+  {
+    "question": "How do I write a clear thesis statement?",
+    "answer": [
+      "State your overall opinion or position in one concise sentence.",
+      "Avoid adding details or examples in the thesis.",
+      "Make sure the thesis directly responds to the question."
+    ],
+    "tags": [
+      "task response",
+      "thesis",
+      "task2"
+    ]
+  },
+  {
+    "question": "How do I ensure my ideas are fully developed?",
+    "answer": [
+      "After stating your main idea, add a clear explanation sentence.",
+      "Provide a concrete example to support the explanation.",
+      "Avoid jumping to a new idea before developing the current one."
+    ],
+    "tags": [
+      "development",
+      "task2"
+    ]
+  },
+  {
+    "question": "Why is my score low even though I wrote many paragraphs?",
+    "answer": [
+      "Writing more paragraphs does not guarantee clarity or development.",
+      "IELTS values depth over quantity; each paragraph must have one main idea.",
+      "Too many short or incomplete paragraphs reduce coherence and task response."
+    ],
+    "tags": [
+      "task response",
+      "common mistakes"
+    ]
+  },
+  {
+    "question": "How can I stop going off-topic in my essay?",
+    "answer": [
+      "Keep checking the question to ensure each idea is relevant.",
+      "Avoid including personal stories or information not directly tied to the topic.",
+      "Structure each paragraph around the exact wording of the question."
+    ],
+    "tags": [
+      "relevance",
+      "task response"
+    ]
+  },
+  {
+    "question": "How do I avoid repeating the same point?",
+    "answer": [
+      "Develop each idea once and then move on.",
+      "Use examples, explanations, and evidence instead of rephrasing the same point.",
+      "Plan your main ideas before writing to avoid duplication."
+    ],
+    "tags": [
+      "task response",
+      "redundancy"
+    ]
+  },
+  {
+    "question": "How important are examples for task response?",
+    "answer": [
+      "Examples help illustrate and strengthen your argument.",
+      "They should be relevant, clear, and connected to the main idea.",
+      "Avoid overly specific statistics; simple, believable examples are sufficient."
+    ],
+    "tags": [
+      "examples",
+      "task2"
+    ]
+  },
+  {
+    "question": "Should I include my opinion in every essay?",
+    "answer": [
+      "Only include an opinion if the question asks for it, such as 'Do you agree?' or 'To what extent do you agree?'.",
+      "In 'discuss both views' essays, you must present both sides before giving your opinion.",
+      "For advantage/disadvantage essays, your opinion is optional unless the prompt asks for it."
+    ],
+    "tags": [
+      "task2",
+      "opinion"
+    ]
+  },
+  {
+    "question": "How can I avoid being too general in my writing?",
+    "answer": [
+      "Use specific explanations and examples rather than vague statements.",
+      "Avoid phrases like 'people think' or 'some say' without elaboration.",
+      "Clearly explain why your argument matters and how it connects to the topic."
+    ],
+    "tags": [
+      "specificity",
+      "task response"
+    ]
+  },
+  {
+    "question": "What if I disagree with both views in a discussion essay?",
+    "answer": [
+      "You should still explain both views objectively to meet task requirements.",
+      "After explaining both sides, clearly present your own position.",
+      "IELTS assesses how well you respond to the task, not your personal beliefs."
+    ],
+    "tags": [
+      "discussion essay",
+      "task2"
+    ]
+  },
+  {
+    "question": "How can I write a strong conclusion for Task 2?",
+    "answer": [
+      "Summarize the main points from your body paragraphs.",
+      "Restate your opinion clearly if the task requires it.",
+      "Avoid adding new ideas or examples in the conclusion."
+    ],
+    "tags": [
+      "conclusion",
+      "task2"
+    ]
+  },
+  {
+    "question": "How do I choose good main ideas for Task 2?",
+    "answer": [
+      "Choose ideas that are simple, logical, and easy to develop.",
+      "Avoid overly complex or technical arguments.",
+      "Ensure the idea directly answers the question."
+    ],
+    "tags": [
+      "main ideas",
+      "task response"
+    ]
+  },
+  {
+    "question": "Why does my essay sound repetitive?",
+    "answer": [
+      "You may be rephrasing the same argument without adding new explanations.",
+      "Consider brainstorming two or three different ideas before writing.",
+      "Use examples and reasoning to expand ideas instead of repeating them."
+    ],
+    "tags": [
+      "redundancy",
+      "task2"
+    ]
+  },
+  {
+    "question": "How can I ensure my examples support the argument?",
+    "answer": [
+      "Choose examples that clearly connect to your main point.",
+      "Use simple real-world scenarios rather than complicated statistics.",
+      "Explain how the example supports the argument."
+    ],
+    "tags": [
+      "examples",
+      "support"
+    ]
+  },
+  {
+    "question": "What should I do if I don’t know much about the topic?",
+    "answer": [
+      "Use general knowledge and logical reasoning instead of niche facts.",
+      "Focus on explaining your ideas clearly rather than showing expertise.",
+      "IELTS is a language test, not a knowledge test."
+    ],
+    "tags": [
+      "task response",
+      "general knowledge"
+    ]
+  },
+  {
+    "question": "How do I handle two-part questions?",
+    "answer": [
+      "Write one body paragraph for each question.",
+      "Answer both questions equally without prioritizing one over the other.",
+      "Restate the questions in your own words to show understanding."
+    ],
+    "tags": [
+      "two-part question",
+      "task2"
+    ]
+  },
+  {
+    "question": "How do I write opinions in a balanced way?",
+    "answer": [
+      "Use hedging language like 'in my view' or 'it seems that' when appropriate.",
+      "Present clear reasons that support your stance.",
+      "Avoid overly emotional or personal language."
+    ],
+    "tags": [
+      "opinion writing",
+      "task2"
+    ]
+  },
+  {
+    "question": "What happens if I write fewer than 250 words?",
+    "answer": [
+      "You will receive a penalty for Task Response.",
+      "Your ideas may be underdeveloped due to lack of content.",
+      "Aim for 260–290 words to ensure full coverage of ideas."
+    ],
+    "tags": [
+      "task response",
+      "word count"
+    ]
+  },
+  {
+    "question": "How do I stay relevant throughout the essay?",
+    "answer": [
+      "Constantly link your ideas back to the question.",
+      "Avoid adding interesting but unrelated information.",
+      "Check that every paragraph directly responds to the task."
+    ],
+    "tags": [
+      "relevance",
+      "task2"
+    ]
+  },
+  {
+    "question": "What common mistakes reduce task response score?",
+    "answer": [
+      "Failing to address all parts of the question.",
+      "Repeating ideas instead of developing them.",
+      "Introducing new arguments in the conclusion.",
+      "Using examples that do not support the argument."
+    ],
+    "tags": [
+      "task response",
+      "mistakes"
+    ]
+  },
+  {
+    "example_type": "Topic Sentence",
+    "good_examples": [
+      "One of the main reasons for the decline in student motivation is the lack of personalized learning approaches in modern classrooms.",
+      "Global warming continues to accelerate due to human activities such as industrial emissions and deforestation."
+    ],
+    "bad_examples": [
+      "In this paragraph, I will talk about student motivation.",
+      "Global warming is a big problem for everyone everywhere."
+    ],
+    "explanations": [
+      "Good topic sentences clearly introduce the main idea of the paragraph and show the direction of the argument.",
+      "Bad topic sentences are vague, generic, or simply announce what the writer will do instead of presenting an idea."
+    ]
+  },
+  {
+    "example_type": "Advanced Topic Sentences",
+    "good_examples": [
+      "While economic growth remains a priority for many governments, its long-term sustainability is increasingly questioned due to environmental degradation.",
+      "The rapid expansion of digital technologies has fundamentally transformed the way individuals interact, learn, and access information.",
+      "A significant factor contributing to worsening social inequality is the uneven distribution of educational resources across regions."
+    ],
+    "bad_examples": [
+      "Nowadays technology is everywhere and it changes everything.",
+      "There are many reasons why inequality happens.",
+      "In this paragraph I will talk about environmental problems."
+    ],
+    "explanations": [
+      "Advanced topic sentences present a clear argument, establish a position, and introduce complexity.",
+      "Weak topic sentences are vague, overly general, or simply announce what the writer will discuss."
+    ]
+  },
+  {
+    "example_type": "Paragraph Structure",
+    "good_examples": [
+      "Online education provides several advantages for learners. First, it offers flexibility, allowing students to study at their own pace. Additionally, online platforms often provide interactive learning tools that enhance understanding. Therefore, it has become a widely preferred mode of education.",
+      "Regular exercise is essential for maintaining good health. It improves cardiovascular function, strengthens muscles, and reduces stress levels. As a result, incorporating exercise into daily routines can significantly enhance overall well-being."
+    ],
+    "bad_examples": [
+      "Online education is good. Students can study when they want. Also there are tools. So it's popular.",
+      "Exercise is important. It helps your body. It also makes you happy. People should do it."
+    ],
+    "explanations": [
+      "Good paragraphs follow a structure: topic sentence → explanation → example → conclusion linking back to the main idea.",
+      "Bad paragraphs lack development, contain short or disconnected sentences, and do not fully support the main idea."
+    ]
+  },
+  {
+    "example_type": "Advanced Coherence & Transition Examples",
+    "good_examples": [
+      "Although renewable energy technologies have become more cost-effective, their adoption remains limited in developing countries due to insufficient infrastructure. Furthermore, political instability often hinders long-term investment in sustainable solutions.",
+      "In addition to improving individual well-being, regular exercise contributes to broader public health outcomes. Consequently, governments should invest in creating accessible recreational spaces."
+    ],
+    "bad_examples": [
+      "Renewable energy is good but some countries don't use it. There are problems. Also politics affect it.",
+      "Exercise is helpful for people. Governments should spend money on parks."
+    ],
+    "explanations": [
+      "Strong examples show clear logical progression, layered argumentation, and meaningful transitions.",
+      "Weak examples rely on simple statements without establishing connections or depth."
+    ]
+  },
+  {
+    "example_type": "Academic Tone",
+    "good_examples": [
+      "The data suggests a significant relationship between socioeconomic status and academic achievement.",
+      "It is evident that policy interventions must prioritize equal access to healthcare resources."
+    ],
+    "bad_examples": [
+      "The data obviously shows that rich kids always do better in school.",
+      "The government really needs to fix things because the healthcare system is super unfair."
+    ],
+    "explanations": [
+      "Good academic tone is objective, cautious, and precise.",
+      "Bad academic tone uses emotional, exaggerated, or informal language."
+    ]
+  },
+  {
+    "example_type": "Introduction Examples",
+    "good_examples": [
+      "In recent years, the rise of remote work has sparked considerable debate regarding its impact on productivity and work–life balance. While some argue that remote arrangements enhance efficiency, others claim they lead to reduced collaboration. This essay will examine both perspectives before presenting a reasoned conclusion.",
+      "Technological innovation has transformed nearly every aspect of human life, from communication to transportation. However, this rapid progression raises important questions about privacy and data protection. This essay will explore the benefits and drawbacks of technological advancement."
+    ],
+    "bad_examples": [
+      "There are many opinions about remote work. In this essay I will write about these opinions.",
+      "Technology changed life a lot. I will talk about good and bad things in this essay."
+    ],
+    "explanations": [
+      "Good introductions provide context, define the issue, and outline the essay structure.",
+      "Weak introductions are vague, repetitive, or simply announce the essay without presenting ideas."
+    ]
+  },
+  {
+    "example_type": "Conclusion Examples",
+    "good_examples": [
+      "In conclusion, while remote work offers employees increased flexibility and autonomy, it also presents challenges related to collaboration and communication. Therefore, a balanced approach that incorporates both remote and in-person work may yield the most productive outcomes.",
+      "To summarize, although technological innovation drives economic and social progress, it simultaneously raises concerns about privacy and inequality. Policymakers must therefore develop regulations that ensure ethical and equitable use of technology."
+    ],
+    "bad_examples": [
+      "So in conclusion, remote work has good sides and bad sides. It depends on the person.",
+      "To sum up, technology is good and bad. Everyone should be careful."
+    ],
+    "explanations": [
+      "Strong conclusions summarize key arguments and provide a final analytical insight.",
+      "Weak conclusions are repetitive, oversimplified, or introduce new ideas."
+    ]
+  },
+  {
+    "example_type": "Before and After (Improved Writing Examples)",
+    "good_examples": [
+      "Improved: 'Although many cities have attempted to reduce traffic congestion through public transportation initiatives, these efforts remain ineffective without parallel investments in infrastructure and urban planning.'"
+    ],
+    "bad_examples": [
+      "Original: 'Cities try to reduce traffic with buses and trains but it doesn't work because the roads are still bad.'"
+    ],
+    "explanations": [
+      "The improved version demonstrates clearer logic, more formal vocabulary, and stronger cohesion compared to the original weak version."
+    ]
+  },
+  {
+    "category": "Grammar Improvement",
+    "guidelines": [
+      "Use simple, compound, and complex sentences naturally.",
+      "Don't overuse advanced grammar if you cannot control it.",
+      "Keep your verb tenses consistent in the essay.",
+      "Avoid fragments (incomplete sentences).",
+      "Avoid run-on sentences.",
+      "Use modal verbs accurately (should, might, could).",
+      "Maintain correct subject–verb agreement."
+    ]
+  },
+  {
+    "category": "Vocabulary Improvement",
+    "guidelines": [
+      "Avoid repeating the same words too often.",
+      "Use precise academic vocabulary instead of general words.",
+      "Learn common collocations such as 'make progress' and 'strong argument'.",
+      "Avoid overly informal words.",
+      "Do not use memorized phrases unnaturally."
+    ]
+  },
+  {
+    "category": "Coherence & Cohesion",
+    "guidelines": [
+      "Ensure each paragraph expresses one clear central idea.",
+      "Use topic sentences to introduce the main idea of each paragraph.",
+      "Connect ideas using appropriate logical transitions.",
+      "Use reference devices such as 'this issue', 'such a trend', 'these problems'.",
+      "Avoid abrupt shifts in ideas.",
+      "Use sequencing words to guide the reader logically (firstly, secondly, ultimately).",
+      "Use parallel paragraph structures for balance and clarity.",
+      "Repeat key terms purposefully to maintain thematic focus.",
+      "Avoid unnecessary repetition of words or ideas.",
+      "Use logical connectors to show contrast, addition, or results.",
+      "Ensure each sentence follows naturally from the previous one.",
+      "Avoid paragraphs that contain unrelated ideas.",
+      "Use subordinate clauses to show relationships between ideas.",
+      "Avoid placing new ideas in the conclusion.",
+      "Use consistent referencing to maintain continuity."
+    ]
+  },
+  {
+    "category": "Paragraph Structure",
+    "guidelines": [
+      "Structure paragraphs as: topic sentence → explanation → evidence → mini conclusion.",
+      "Use examples that directly support the main idea.",
+      "Ensure topic sentences are argument-focused, not descriptive.",
+      "Provide at least one explanation sentence after each claim.",
+      "Avoid single-sentence paragraphs.",
+      "Avoid overly long paragraphs that include multiple ideas.",
+      "Use concluding sentences to reinforce the paragraph's purpose.",
+      "Start paragraphs with clear argument-based sentences.",
+      "Support each idea with evidence or logical reasoning.",
+      "Avoid bullet lists in formal writing; use full sentences instead."
+    ]
+  },
+  {
+    "category": "Idea Development",
+    "guidelines": [
+      "Develop ideas using the structure: claim → explanation → example → evaluation.",
+      "Avoid stating opinions without justification.",
+      "Use specific, concrete examples rather than general statements.",
+      "Use real-world examples, hypothetical scenarios, or common situations.",
+      "Include counterarguments to demonstrate awareness of opposing views.",
+      "Refute counterarguments using strong logic or evidence.",
+      "Avoid overgeneralizations that weaken the argument.",
+      "Explain how each example supports your argument.",
+      "Use evaluative language to interpret evidence.",
+      "Be precise when defining abstract ideas such as freedom, justice, or progress."
+    ]
+  },
+  {
+    "category": "Academic Tone",
+    "guidelines": [
+      "Use objective, neutral vocabulary suitable for formal essays.",
+      "Avoid emotional, dramatic, or exaggerated expressions.",
+      "Replace contractions with full forms (don't → do not).",
+      "Use hedging to avoid overgeneralization (may, might, could, tends to).",
+      "Avoid personal pronouns unless the task allows it.",
+      "Use formal reporting verbs such as 'suggests', 'indicates', or 'demonstrates'.",
+      "Avoid slang, clichés, and conversational language.",
+      "Use nominalization appropriately (develop → development).",
+      "Avoid rhetorical questions in academic writing.",
+      "Maintain consistent formality across the entire essay."
+    ]
+  },
+  {
+    "category": "Transitions & Linking Words",
+    "guidelines": [
+      "Addition: moreover, furthermore, additionally, in addition.",
+      "Contrast: however, nevertheless, nonetheless, on the other hand.",
+      "Cause/Effect: therefore, consequently, as a result, hence.",
+      "Emphasis: indeed, notably, significantly, in particular.",
+      "Sequence: firstly, subsequently, finally, ultimately.",
+      "Examples: for instance, for example, such as, to illustrate.",
+      "Conclusions: in summary, overall, therefore, to conclude.",
+      "Clarification: in other words, that is to say, put simply.",
+      "Condition: if, unless, provided that, in case.",
+      "Comparison: similarly, likewise, in comparison."
+    ]
+  },
+  {
+    "category": "Argumentation",
+    "guidelines": [
+      "State your position clearly in the introduction.",
+      "Ensure each paragraph connects back to your thesis statement.",
+      "Use logical connectors to build a smooth argumentative flow.",
+      "Include counterarguments to demonstrate critical thinking.",
+      "Avoid unsupported claims; support each idea with evidence.",
+      "Strengthen claims with facts, examples, or logical reasoning.",
+      "Use balanced language when discussing opposing viewpoints.",
+      "Explain the implications of your argument for the broader topic.",
+      "Clarify why your argument is stronger than the opposing side.",
+      "Avoid absolute statements unless strongly supported."
+    ]
+  },
+  {
+    "category": "Common Cohesion Mistakes",
+    "guidelines": [
+      "Avoid using 'also' excessively; vary your linking words.",
+      "Avoid beginning sentences with 'because' without completing the idea.",
+      "Avoid repeating the same transition word many times.",
+      "Avoid using pronouns without a clear reference.",
+      "Do not jump between unrelated ideas within the same paragraph.",
+      "Avoid extremely short paragraphs that lack development.",
+      "Avoid long chains of simple sentences; mix sentence structures.",
+      "Avoid misusing linking words just to sound academic.",
+      "Do not place examples without explaining their relevance.",
+      "Avoid switching tenses within a paragraph unless necessary."
+    ]
+  }
+]
