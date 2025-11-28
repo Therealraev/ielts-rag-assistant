@@ -1,5 +1,11 @@
-streamlit
-sentence-transformers
-faiss-cpu
-google-generativeai
-numpy
+streamlit==1.32.0
+sentence-transformers==2.7.0
+faiss-cpu==1.12.0
+google-generativeai==0.8.5
+protobuf==4.25.3
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.6.1
+scipy==1.11.4
+torch==2.2.2
+transformers==4.41.1
