@@ -37,7 +37,7 @@ sbert_model = load_encoder()
 # ----------------------------
 # Gemini configuration
 # ----------------------------
-genai.configure(api_key="AIzaSyBtfiMRogn1i5i8_t43PGdF8cj0rV26GsY")  # <- PUT YOUR KEY HERE
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 gemini_model = genai.GenerativeModel("gemini-2.0-flash")
 
 
