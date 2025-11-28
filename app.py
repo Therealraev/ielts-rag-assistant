@@ -41,10 +41,11 @@ gemini_model = genai.GenerativeModel("gemini-2.0-flash")
 
 
 # ----------------------------
-# HELPERS
+# Helper Functions
 # ----------------------------
 def cosine_sim(a, b):
     return float(np.dot(a, b)) / (float(np.linalg.norm(a) * np.linalg.norm(b)) + 1e-8)
+
 
 def retrieve_context(query, k_final: int = 7):
     if not query.strip():
@@ -58,13 +59,16 @@ def retrieve_context(query, k_final: int = 7):
         if 0 <= idx < len(texts) and texts[idx].strip():
             candidates.append((dist, idx, texts[idx]))
 
+    if not candidates:
+        return []
+
     candidates.sort(key=lambda x: x[0])
 
     selected, embeddings = [], []
     for dist, idx, text in candidates:
         emb = sbert_model.encode([text], convert_to_numpy=True).astype("float32")[0]
 
-        if any(cosine_sim(emb, prev) > 0.90 for prev in embeddings):
+        if any(cosine_sim(emb, prev) > 0.9 for prev in embeddings):
             continue
 
         selected.append(text)
@@ -75,9 +79,13 @@ def retrieve_context(query, k_final: int = 7):
 
     return selected
 
+
 def build_prompt(query, retrieved):
     if not retrieved:
-        return f"I can only provide a partial answer based on the available context.\nQUESTION: {query}"
+        return f"""
+I can only provide a partial answer based on the available context.
+QUESTION: {query}
+"""
 
     context = "\n".join([f"- {item}" for item in retrieved])
 
@@ -94,10 +102,11 @@ You are an IELTS Writing Tutor. Use ONLY the context.
 
 ========================================
 STRICT FORMAT:
-1. Short explanation of problem (NO title word)
-2. 4–6 bullet points (exact spacing required)
-3. Summary (different wording, no repeated idea)
+1. Introduction — brief explanation of problem (NO title "Introduction")
+2. 4–6 bullet points (each 1–2 full sentences, ONE idea each, spacing exactly as format)
+3. Summary (NO repeated idea or synonym reuse)
 """
+
 
 def rag_answer(query):
     retrieved = retrieve_context(query)
@@ -111,7 +120,9 @@ def rag_answer(query):
 # ----------------------------
 st.markdown("""
 <style>
-html, body {font-family: 'Inter', sans-serif;}
+html, body {
+    font-family: 'Inter', sans-serif;
+}
 
 .header-gradient {
     background: white;
@@ -140,70 +151,27 @@ html, body {font-family: 'Inter', sans-serif;}
 </style>
 """, unsafe_allow_html=True)
 
+
 # ----------------------------
-# SIDEBAR WITH ALL QUESTIONS
+# SIDEBAR PRESET QUESTIONS
 # ----------------------------
 with st.sidebar:
     st.header("📘 IELTS Writing Helper")
 
     categories = {
-        "🧩 Coherence": [
+        "Coherence": [
             "How can I improve coherence?",
-            "How do I ensure each sentence follows logically from the previous one?",
-            "How do I avoid abrupt changes in ideas?",
-            "How can I improve the logical flow of my writing?",
-            "How do I maintain a consistent line of reasoning?"
+            "How do I ensure sentences connect smoothly?",
+            "How do I avoid abrupt topic shifts?"
         ],
-        "🔗 Cohesion": [
-            "How can I use cohesive devices effectively?",
+        "Cohesion": [
             "What linking words improve cohesion?",
-            "How do reference words improve cohesion?",
-            "How do I show relationships between ideas clearly?",
-            "How do I avoid repeating the same cohesive devices?"
-        ],
-        "📑 Paragraph Structure": [
-            "How do I structure a paragraph?",
-            "How can I organize a paragraph clearly?",
-            "How can I sequence ideas inside a paragraph?",
-            "How do I keep a paragraph focused on one idea?",
-            "How do I avoid mixing unrelated ideas in a paragraph?"
-        ],
-        "🎯 Topic Sentences": [
-            "What is a topic sentence?",
-            "How do I write an effective topic sentence?",
-            "How do topic sentences improve coherence?"
-        ],
-        "📝 Task Response (Task 2)": [
-            "How do I choose good main ideas for Task 2?",
-            "How can I avoid complex ideas in Task 2?",
-            "How do I make sure my Task 2 ideas are easy to develop?",
-            "How can I avoid technical arguments in Task 2?"
-        ],
-        "📚 Vocabulary": [
-            "How can I improve vocabulary?",
-            "How can I improve vocabulary for Task 2?",
-            "Which formal verbs are useful for IELTS writing?",
-            "How can I avoid repeating words?",
-            "How do I use topic-specific vocabulary effectively?"
-        ],
-        "⚙️ Grammar Range": [
-            "How can I improve my grammatical range?",
-            "How do I avoid sentence fragments?",
-            "How do I fix run-on sentences?",
-            "How can I vary my sentence structure?",
-            "What are common subject–verb agreement mistakes?"
-        ],
-        "✨ Writing Quality": [
-            "How do I avoid list-like writing?",
-            "How can I add explanation sentences?",
-            "How do I keep my writing clear and coherent?",
-            "How do I keep my writing formal?",
-            "How can I organize my ideas more effectively?"
+            "How do I use cohesive devices properly?"
         ]
     }
 
-    for cat_label, questions in categories.items():
-        st.subheader(cat_label)
+    for cat, questions in categories.items():
+        st.subheader(cat)
         for q in questions:
             if st.button(q, key=q):
                 st.session_state["selected_question"] = q
@@ -211,40 +179,46 @@ with st.sidebar:
 
 
 # ----------------------------
-# HEADER
+# Chat Title
 # ----------------------------
 st.markdown("""
 <div class='header-gradient'>
     <h1>IELTS Writing RAG Assistant</h1>
-    <p>Ask about structure, grammar, clarity, coherence, vocabulary & scoring.</p>
+    <p>Ask about writing structure, coherence, grammar, or clarity.</p>
 </div>
 """, unsafe_allow_html=True)
 
+
 # ----------------------------
-# CHAT SESSION
+# CHAT HISTORY
 # ----------------------------
 if "messages" not in st.session_state:
     st.session_state["messages"] = []
 
 
 for msg in st.session_state["messages"]:
-    role = "user-bubble" if msg["role"] == "user" else "bot-bubble"
-    st.markdown(f"<div class='{role}'>{msg['content']}</div>", unsafe_allow_html=True)
+    role_class = "user-bubble" if msg["role"] == "user" else "bot-bubble"
+    st.markdown(f"<div class='{role_class}'>{msg['content']}</div>", unsafe_allow_html=True)
+
 
 # ----------------------------
-# INPUT + SEND BUTTON
+# USER INPUT
 # ----------------------------
 default_value = st.session_state.get("selected_question", "")
+
 user_query = st.text_input("", placeholder="Type your question here...", value=default_value)
+
 send = st.button("Send")
+
 
 if send and user_query.strip():
     st.session_state["messages"].append({"role": "user", "content": user_query})
 
     with st.spinner("Thinking..."):
-        bot_reply = rag_answer(user_query)
+        answer = rag_answer(user_query)
 
-    st.session_state["messages"].append({"role": "assistant", "content": bot_reply})
+    st.session_state["messages"].append({"role": "assistant", "content": answer})
 
     st.session_state["selected_question"] = ""
+
     st.experimental_rerun()
